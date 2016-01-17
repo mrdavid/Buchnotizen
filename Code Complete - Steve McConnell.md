@@ -10,38 +10,82 @@ Notes on Book: Steve McConnell, Code Complete (2nd edition)
 
 ## 1 Welcome to Software construction
 
-### 1.1 What is Software Construction?
-### 1.2 Why is Software Construction important?
-### 1.3 How to Read This Book
-
 ## 2 Metaphors for a Richer Understanding of Software Development
-
-### 2.1 The Importance of Metaphors
-### 2.2 How to Use Software Metaphors
-### 2.3 Common Software Metaphors
 
 ## 3 Measure Twice, Cut Once: Upstream Prerequisites
 
-### 3.1 Importance of Prerequisites
-### 3.2. Determine the Kind of Software You're Working On
-### 3.3 Problem-Definition Prerequisite
-### 3.4 Requirements Prerequisite
-### 3.5 Architecture Prerequisite
-### 3.6 Amount of Time to Spend on Upstream Prerequisites
-
 ## 4 Key Construction Decisions
-
-### 4.1 Choice of Programming Language
-### 4.2 Programming Conventions
-### 4.3 Your Location on the Technology Wave
-### 4.4. Selection of Major Construction Practices
 
 # Part II - Creating High-Quality Code
 
 ## 5 Design in Construction
 
-### 5.1 Design Challenges
-### 5.2 Key Design Concepts
-### 5.3 Design Building Blocks: Heuristics
+## 6 Working Classes
 
-...
+## 7 High-Quality Routines
+
+## 8 Defensive programming
+
+## 9 The Pseudocode Programming Process
+
+# Part III - Variables
+
+## 10 General Issues in Using Variables
+
+## 11 The Power of Variable Names
+
+## 12 Fundamental Data Types
+
+## 13 Unusual Data Types
+
+# Part IV - Statements
+
+## 14 Organizing Straight-Line Code
+
+## 15 Using Conditionals
+
+## 16 Controlling Loops
+
+## 17 Unusual Control Structures
+
+## 18 Table-Driven Methods
+
+## 19 General Control Issues
+
+# Part V - Code Improvements
+
+## 20 The Software-Quality Landscape
+
+## 21 Collaborative Construction
+
+## 22 Developer testing
+
+## 23 Debugging
+
+## 24 Refactoring
+
+## 25 Code-Tuning Strategies
+
+## 26 Code-Tuning techniques
+
+# Part VI - System Considerations
+
+## 27 How Program Size Affects Construction
+
+## 28 Managing Construction
+
+## 29 Integration
+
+## 30 Programming Tools
+
+# Part VII - Software Craftsmanship
+
+## 31 Layout and Style
+
+## 32 Self-Documenting Code
+
+## 33 Personal Character
+
+## 34 Themes in Software Craftsmanship
+
+## 35 Where to Find More Information
