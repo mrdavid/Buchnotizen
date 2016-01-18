@@ -2,6 +2,11 @@
 
 I started this log on October 30th, 2012. I list all books I read.
 
+### Statistics
+Total number of books read: 49  
+Books per month: 1.2
+
+### List of books
 *The Monocle Guide to Good Business*, Monocle  
 Finished: 2016.01.11
 
@@ -149,6 +154,3 @@ Finished: 2012.10.29
 *An Interpretive Introduction to Quantum Field Theory*, Paul Teller  
 Finished: 2012.09.14
 
-### Statistics
-Total number of books read: 49  
-Books per month: 1.2
