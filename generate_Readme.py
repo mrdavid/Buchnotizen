@@ -23,6 +23,6 @@ print("### List of books")
 for atype in books:
     total_books += 1
     print("*"+atype.find('title').text+"*, "+atype.find('author').text+"  ")
-    if "finnished" != None:
+    if atype.find('title') != None:
         print("Finished: " + atype.find('finnished').text)
     print("")
