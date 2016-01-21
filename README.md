@@ -3,10 +3,13 @@
 I started this log on October 30th, 2012. I list all books I read.
 
 ### Statistics
-Total number of books read: 49  
-Books per month: 1.2
+Total number of books read: 50  
+Books per month: 1.22
 
 ### List of books
+*The Old Man and the Sea*, Ernest Hemingway  
+Finished: 2016.01.22
+
 *The Monocle Guide to Good Business*, Monocle  
 Finished: 2016.01.11
 
