@@ -3,10 +3,13 @@
 I started this log on October 30th, 2012. I list all books I read.
 
 ### Statistics
-Total number of books read: 50  
-Books per month: 1.22
+Total number of books read: 51  
+Books per month: 1.21
 
 ### List of books
+*Surely you're joking, Mr. Feynamn!*, Richard Feynman  
+Finished: 2016.02.06
+
 *The Old Man and the Sea*, Ernest Hemingway  
 Finished: 2016.01.22
 
