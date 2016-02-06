@@ -1,10 +1,9 @@
 Notes on Book: Steve McConnell, Code Complete (2nd edition)  
-(I) - Information distilled from the book  
 (C) - Comments by me on the book
 
 ## Preface
 
-* (I) 'Construction' is the only activity in software projects that is guaranteed to be done, unlike e.g. testing.
+* 'Construction' is the only activity in software projects that is guaranteed to be done, unlike e.g. testing.
 
 # Part I - Laying the foundation
 

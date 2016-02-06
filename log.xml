@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
+  <book>
+        <author>Richard Feynman</author>
+        <title>Surely you're joking, Mr. Feynamn!</title>
+        <tag>Biography</tag>
+        <finnished>2016.02.06</finnished>
+  </book>
 <book>
       <author>Ernest Hemingway</author>
       <title>The Old Man and the Sea</title>
