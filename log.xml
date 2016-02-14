@@ -5,6 +5,7 @@
         <title>Surely you're joking, Mr. Feynman!</title>
         <tag>Biography</tag>
         <finnished>2016.02.06</finnished>
+        <notes>Feynman Joking.md</notes>
   </book>
 <book>
       <author>Ernest Hemingway</author>
@@ -150,7 +151,7 @@
   <tag>Mathematics</tag>
   <started>2014.01.01</started>
   <finnished>2014.01.04</finnished>
-      <notes>reading/hadamard_math.html</notes>
+      <notes>hadamard.md</notes>
  </book>
 <book>
   <author>Marc Aurel/Anton Cechov</author>

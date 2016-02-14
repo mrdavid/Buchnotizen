@@ -4,7 +4,7 @@ I started this log on October 30th, 2012. I list all books I read.
 
 ### Statistics
 Total number of books read: 51  
-Books per month: 1.21
+Books per month: 1.21 (2012/9 to 2016/2)
 
 ### List of books
 *Surely you're joking, Mr. Feynman!*, Richard Feynman  
