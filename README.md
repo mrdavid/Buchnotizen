@@ -3,10 +3,13 @@
 I started this log on October 30th, 2012. I list all books I read.
 
 ### Statistics
-Total number of books read: 51  
-Books per month: 1.21 (2012/9 to 2016/2)
+Total number of books read: 52  
+Books per month: 1.16 (2012/9 to 2016/5)
 
 ### List of books
+*Momo*, Michael Ende  
+Finished: 2016.05.24
+
 *Surely you're joking, Mr. Feynman!*, Richard Feynman  
 Finished: 2016.02.06
 

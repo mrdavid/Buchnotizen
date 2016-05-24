@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
   <book>
+        <author>Michael Ende</author>
+        <title>Momo</title>
+        <tag>Fiction</tag>
+        <finnished>2016.05.24</finnished>
+  </book>
+  <book>
         <author>Richard Feynman</author>
         <title>Surely you're joking, Mr. Feynman!</title>
         <tag>Biography</tag>
