@@ -3,10 +3,13 @@
 I started this log on October 30th, 2012. I list all books I read.
 
 ### Statistics
-Total number of books read: 52  
-Books per month: 1.16 (2012/9 to 2016/5)
+Total number of books read: 53  
+Books per month: 1.13 (2012/9 to 2016/7)
 
 ### List of books
+*Reigen*, Arthur Schnitzler  
+Finished: 2016.07.11
+
 *Momo*, Michael Ende  
 Finished: 2016.05.24
 

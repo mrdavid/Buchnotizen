@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
   <book>
+        <author>Arthur Schnitzler</author>
+        <title>Reigen</title>
+        <tag>Fiction</tag>
+        <finnished>2016.07.11</finnished>
+  </book>
+  <book>
         <author>Michael Ende</author>
         <title>Momo</title>
         <tag>Fiction</tag>
