@@ -3,10 +3,13 @@
 I started this log on October 30th, 2012. I list all books I read.
 
 ### Statistics
-Total number of books read: 53  
-Books per month: 1.13 (2012/9 to 2016/7)
+Total number of books read: 54  
+Books per month: 1.15 (2012/9 to 2016/7)
 
 ### List of books
+*The 4-hour work week*, Tim Ferris  
+Finished: 2016.07.28
+
 *Reigen*, Arthur Schnitzler  
 Finished: 2016.07.11
 

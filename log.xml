@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
   <book>
+        <author>Tim Ferris</author>
+        <title>The 4-hour work week</title>
+        <tag>Self Help</tag>
+        <finnished>2016.07.28</finnished>
+  </book>
+  <book>
         <author>Arthur Schnitzler</author>
         <title>Reigen</title>
         <tag>Fiction</tag>
