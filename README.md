@@ -3,10 +3,13 @@
 I started this log on October 30th, 2012. I list all books I read.
 
 ### Statistics
-Total number of books read: 54  
-Books per month: 1.15 (2012/9 to 2016/7)
+Total number of books read: 55  
+Books per month: 1.15 (2012/9 to 2016/8)
 
 ### List of books
+*Spiel im Morgengrauen*, Arthur Schnitzler  
+Finished: 2016.08.14
+
 *The 4-hour work week*, Tim Ferris  
 Finished: 2016.07.28
 

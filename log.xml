@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
   <book>
+        <author>Arthur Schnitzler</author>
+        <title>Spiel im Morgengrauen</title>
+        <tag>Fiction</tag>
+        <finnished>2016.08.14</finnished>
+  </book>
+  <book>
         <author>Tim Ferris</author>
         <title>The 4-hour work week</title>
         <tag>Self Help</tag>
