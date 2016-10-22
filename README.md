@@ -3,10 +3,13 @@
 I started this log on October 30th, 2012. I list all books I read.
 
 ### Statistics
-Total number of books read: 55  
-Books per month: 1.15 (2012/9 to 2016/8)
+Total number of books read: 56  
+Books per month: 1.12 (2012/9 to 2016/10)
 
 ### List of books
+*Flucht in die Finsternis*, Arthur Schnitzler  
+Finished: 2016.10.22
+
 *Spiel im Morgengrauen*, Arthur Schnitzler  
 Finished: 2016.08.14
 
