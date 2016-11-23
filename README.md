@@ -3,10 +3,13 @@
 I started this log on October 30th, 2012. I list all books I read.
 
 ### Statistics
-Total number of books read: 56  
-Books per month: 1.12 (2012/9 to 2016/10)
+Total number of books read: 57  
+Books per month: 1.12 (2012/9 to 2016/11)
 
 ### List of books
+*Mann und Vater sein*, Jesper Juul  
+Finished: 2016.11.23
+
 *Flucht in die Finsternis*, Arthur Schnitzler  
 Finished: 2016.10.22
 
