@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
+  <book>
+         <author>Stefan Zweig</author>
+         <title>Schachnovelle</title>
+         <tag>Fiction</tag>
+         <finnished>2016.12.15</finnished>
+ </book>
  <book>
         <author>Jesper Juul</author>
         <title>Mann und Vater sein</title>

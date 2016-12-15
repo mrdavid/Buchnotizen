@@ -3,10 +3,13 @@
 I started this log on October 30th, 2012. I list all books I read.
 
 ### Statistics
-Total number of books read: 57  
-Books per month: 1.12 (2012/9 to 2016/11)
+Total number of books read: 58  
+Books per month: 1.12 (2012/9 to 2016/12)
 
 ### List of books
+*Schachnovelle*, Stefan Zweig  
+Finished: 2016.12.15
+
 *Mann und Vater sein*, Jesper Juul  
 Finished: 2016.11.23
 
