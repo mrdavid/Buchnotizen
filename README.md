@@ -3,10 +3,13 @@
 I started this log on October 30th, 2012. I list all books I read.
 
 ### Statistics
-Total number of books read: 59  
-Books per month: 1.11 (2012/9 to 2017/1)
+Total number of books read: 60  
+Books per month: 1.13 (2012/9 to 2017/1)
 
 ### List of books
+*Windows On The World Complete Wine Course*, Kevin Zraly  
+Finished: 2017.01.31
+
 *Die Räuber*, Friedrich Schiller  
 Finished: 2017.01.18
 

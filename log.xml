@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
   <book>
+         <author>Kevin Zraly</author>
+         <title>Windows On The World Complete Wine Course</title>
+         <tag>Wine</tag>
+         <finnished>2017.01.31</finnished>
+ </book>
+  <book>
          <author>Friedrich Schiller</author>
          <title>Die Räuber</title>
          <tag>Fiction</tag>
