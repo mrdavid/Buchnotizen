@@ -3,10 +3,13 @@
 I started this log on October 30th, 2012. I list all books I read.
 
 ### Statistics
-Total number of books read: 60  
-Books per month: 1.13 (2012/9 to 2017/1)
+Total number of books read: 61  
+Books per month: 1.13 (2012/9 to 2017/2)
 
 ### List of books
+*Dogs and Demons*, Alex Kerr  
+Finished: 2017.02.14
+
 *Windows On The World Complete Wine Course*, Kevin Zraly  
 Finished: 2017.01.31
 

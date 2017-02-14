@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
   <book>
+         <author>Alex Kerr</author>
+         <title>Dogs and Demons</title>
+         <tag>Japan</tag>
+         <finnished>2017.02.14</finnished>
+ </book>
+  <book>
          <author>Kevin Zraly</author>
          <title>Windows On The World Complete Wine Course</title>
          <tag>Wine</tag>
