@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
   <book>
+         <author>Eric Schmidt, Jonathan Rosenberg</author>
+         <title>How Google works</title>
+         <tag>Technology</tag>
+         <finnished>2017.03.08</finnished>
+ </book>
+  <book>
          <author>Alex Kerr</author>
          <title>Dogs and Demons</title>
          <tag>Japan</tag>

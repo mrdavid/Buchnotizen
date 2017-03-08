@@ -3,10 +3,13 @@
 I started this log on October 30th, 2012. I list all books I read.
 
 ### Statistics
-Total number of books read: 61  
-Books per month: 1.13 (2012/9 to 2017/2)
+Total number of books read: 62  
+Books per month: 1.13 (2012/9 to 2017/3)
 
 ### List of books
+*How Google works*, Eric Schmidt, Jonathan Rosenberg  
+Finished: 2017.03.08
+
 *Dogs and Demons*, Alex Kerr  
 Finished: 2017.02.14
 
