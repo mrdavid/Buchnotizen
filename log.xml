@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
   <book>
+         <author>James Binney</author>
+         <title>Astrophysics: A Very Short Introduction</title>
+         <tag>Physics</tag>
+         <finnished>2017.03.28</finnished>
+ </book>
+  <book>
          <author>Eric Schmidt, Jonathan Rosenberg</author>
          <title>How Google works</title>
          <tag>Technology</tag>

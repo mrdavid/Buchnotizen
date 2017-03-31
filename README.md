@@ -3,10 +3,13 @@
 I started this log on October 30th, 2012. I list all books I read.
 
 ### Statistics
-Total number of books read: 62  
-Books per month: 1.13 (2012/9 to 2017/3)
+Total number of books read: 63  
+Books per month: 1.15 (2012/9 to 2017/3)
 
 ### List of books
+*Astrophysics: A Very Short Introduction*, James Binney  
+Finished: 2017.03.28
+
 *How Google works*, Eric Schmidt, Jonathan Rosenberg  
 Finished: 2017.03.08
 
