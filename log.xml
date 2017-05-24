@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
   <book>
+         <author>Matthew Stewart</author>
+         <title>The Management Myth</title>
+         <tag>Business</tag>
+         <finnished>2017.05.24</finnished>
+ </book>
+  <book>
          <author>James Binney</author>
          <title>Astrophysics: A Very Short Introduction</title>
          <tag>Physics</tag>

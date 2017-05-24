@@ -3,10 +3,13 @@
 I started this log on October 30th, 2012. I list all books I read.
 
 ### Statistics
-Total number of books read: 63  
-Books per month: 1.15 (2012/9 to 2017/3)
+Total number of books read: 64  
+Books per month: 1.12 (2012/9 to 2017/5)
 
 ### List of books
+*The Management Myth*, Matthew Stewart  
+Finished: 2017.05.24
+
 *Astrophysics: A Very Short Introduction*, James Binney  
 Finished: 2017.03.28
 
