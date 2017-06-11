@@ -3,10 +3,13 @@
 I started this log on October 30th, 2012. I list all books I read.
 
 ### Statistics
-Total number of books read: 64  
-Books per month: 1.12 (2012/9 to 2017/5)
+Total number of books read: 65  
+Books per month: 1.12 (2012/9 to 2017/6)
 
 ### List of books
+*The Pyramid Principle*, Barbara Minto  
+Finished: 2017.06.11
+
 *The Management Myth*, Matthew Stewart  
 Finished: 2017.05.24
 
