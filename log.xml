@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
   <book>
+         <author>Dr. med. Stephan Nolte, Annette Nolden</author>
+         <title>Das große Buch für Babys erstes Jahr</title>
+         <tag>Childbirth</tag>
+         <finnished>2017.07.02</finnished>
+ </book>
+  <book>
          <author>Barbara Minto</author>
          <title>The Pyramid Principle</title>
          <tag>Business</tag>

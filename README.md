@@ -3,10 +3,13 @@
 I started this log on October 30th, 2012. I list all books I read.
 
 ### Statistics
-Total number of books read: 65  
-Books per month: 1.12 (2012/9 to 2017/6)
+Total number of books read: 66  
+Books per month: 1.12 (2012/9 to 2017/7)
 
 ### List of books
+*Das große Buch für Babys erstes Jahr*, Dr. med. Stephan Nolte, Annette Nolden  
+Finished: 2017.07.02
+
 *The Pyramid Principle*, Barbara Minto  
 Finished: 2017.06.11
 
