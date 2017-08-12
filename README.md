@@ -3,10 +3,13 @@
 I started this log on October 30th, 2012. I list all books I read.
 
 ### Statistics
-Total number of books read: 66  
-Books per month: 1.12 (2012/9 to 2017/7)
+Total number of books read: 67  
+Books per month: 1.12 (2012/9 to 2017/8)
 
 ### List of books
+*Baby Betriebsanleitung*, Joe Borgenicht, Dr. Louis Borgenicht  
+Finished: 2017.08.13
+
 *Das große Buch für Babys erstes Jahr*, Dr. med. Stephan Nolte, Annette Nolden  
 Finished: 2017.07.02
 

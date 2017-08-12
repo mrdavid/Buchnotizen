@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
-  <book>
-         <author>Joe Borgenicht, Dr. Louis Borgenicht</author>
-         <title>Baby Betriebsanleitung</title>
-         <tag>Childbirth</tag>
-         <finnished>2017.08.13</finnished>
+</finnished>
  </book>
   <book>
          <author>Dr. med. Stephan Nolte, Annette Nolden</author>
