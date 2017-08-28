@@ -3,10 +3,13 @@
 I started this log on October 30th, 2012. I list all books I read.
 
 ### Statistics
-Total number of books read: 67  
-Books per month: 1.12 (2012/9 to 2017/8)
+Total number of books read: 68  
+Books per month: 1.13 (2012/9 to 2017/8)
 
 ### List of books
+*High Output Management*, Adrew S. Grove  
+Finished: 2017.08.28
+
 *Baby Betriebsanleitung*, Joe Borgenicht, Dr. Louis Borgenicht  
 Finished: 2017.08.13
 
