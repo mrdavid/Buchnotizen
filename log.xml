@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
   <book>
+         <author>Adrew S. Grove</author>
+         <title>High Output Management</title>
+         <tag>Management</tag>
+         <finnished>2017.08.28</finnished>
+ </book>
+  <book>
          <author>Joe Borgenicht, Dr. Louis Borgenicht</author>
          <title>Baby Betriebsanleitung</title>
          <tag>Childbirth</tag>
