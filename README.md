@@ -6,7 +6,7 @@ I started this log on October 30th, 2012. I list all books I read.
 Total number of books read: 68  
 Books per month: 1.11 (2012/9 to 2017/9)
 
-![Books recorded by year](book_recorded.png)
+![Books recorded by year](book_recorded.png | width=100)
 
 ### List of books
 *High Output Management*, Adrew S. Grove  

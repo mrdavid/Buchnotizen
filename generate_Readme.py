@@ -21,7 +21,7 @@ books_per_month = (total_books/( (now.year - 2013.0)*12.0 + 4.0 + now.month ))
 print("Total number of books read: " + str(total_books) + "  ")
 print("Books per month: " + str(round(books_per_month,2)) + " (2012/9 to "+str(now.year)+"/"+str(now.month)+")")
 print("")
-print("![Books recorded by year](book_recorded.png)")
+print("![Books recorded by year](book_recorded.png | width=100)")
 print('')
 print("### List of books")
 
