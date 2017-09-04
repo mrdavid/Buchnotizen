@@ -49,7 +49,7 @@ df2.year = pd.Series(df2.index).apply(lambda x: x.year)
 df2.index = df2.year
 
 my_dpi=100
-plt.figure(figsize=(540/my_dpi, 460/my_dpi), dpi=my_dpi)
+plt.figure(figsize=(580/my_dpi, 360/my_dpi), dpi=my_dpi)
 fig = df2.plot(kind='bar')
 fig.set_xlabel('Year')
 fig.set_ylabel('Number of books recorded')
