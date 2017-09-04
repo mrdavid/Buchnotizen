@@ -2,6 +2,9 @@ import xml.etree.ElementTree
 import datetime
 import pandas as pd
 import matplotlib.pyplot as plt
+
+from matplotlib import rcParams
+rcParams.update({'figure.autolayout': True})
 #%matplotlib inline
 
 now = datetime.datetime.now()
@@ -21,7 +24,7 @@ books_per_month = (total_books/( (now.year - 2013.0)*12.0 + 4.0 + now.month ))
 print("Total number of books read: " + str(total_books) + "  ")
 print("Books per month: " + str(round(books_per_month,2)) + " (2012/9 to "+str(now.year)+"/"+str(now.month)+")")
 print("")
-print("![Books recorded by year](book_recorded.png | width=100)")
+print("![Books recorded by year](book_recorded.png)")
 print('')
 print("### List of books")
 
@@ -45,7 +48,8 @@ df2 = df.groupby(pd.Grouper(freq='A')).count()['title']
 df2.year = pd.Series(df2.index).apply(lambda x: x.year)
 df2.index = df2.year
 
-plt.figure()
+my_dpi=100
+plt.figure(figsize=(540/my_dpi, 460/my_dpi), dpi=my_dpi)
 fig = df2.plot(kind='bar')
 fig.set_xlabel('Year')
 fig.set_ylabel('Number of books recorded')
