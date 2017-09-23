@@ -3,12 +3,15 @@
 I started this log on October 30th, 2012. I list all books I read.
 
 ### Statistics
-Total number of books read: 68  
-Books per month: 1.11 (2012/9 to 2017/9)
+Total number of books read: 69  
+Books per month: 1.13 (2012/9 to 2017/9)
 
 ![Books recorded by year](book_recorded.png)
 
 ### List of books
+*Meine Schwangerschaft - Tag für Tag*, Gabriele Grünebaum, Dr. Med. Loay Okko  
+Finished: 2017.09.23
+
 *High Output Management*, Adrew S. Grove  
 Finished: 2017.08.28
 

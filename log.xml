@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
   <book>
+         <author>Gabriele Grünebaum, Dr. Med. Loay Okko</author>
+         <title>Meine Schwangerschaft - Tag für Tag</title>
+         <tag>Childbirth</tag>
+         <finnished>2017.09.23</finnished>
+ </book>
+  <book>
          <author>Adrew S. Grove</author>
          <title>High Output Management</title>
          <tag>Management</tag>
