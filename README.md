@@ -7,6 +7,7 @@ Total number of books read: 69
 Books per month: 1.13 (2012/9 to 2017/9)
 
 ![Books recorded by year](book_recorded.png)
+![Books read per month](book_read.png)
 
 ### List of books
 *Meine Schwangerschaft - Tag für Tag*, Gabriele Grünebaum, Dr. Med. Loay Okko  

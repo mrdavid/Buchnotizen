@@ -25,6 +25,7 @@ print("Total number of books read: " + str(total_books) + "  ")
 print("Books per month: " + str(round(books_per_month,2)) + " (2012/9 to "+str(now.year)+"/"+str(now.month)+")")
 print("")
 print("![Books recorded by year](book_recorded.png)")
+print("![Books read per month](book_read.png)")
 print('')
 print("### List of books")
 
@@ -55,3 +56,13 @@ fig.set_xlabel('Year')
 fig.set_ylabel('Number of books recorded')
 fig.set_title('Books recorded')
 fig.get_figure().savefig('book_recorded.png')
+
+df3 = df.groupby(pd.Grouper(freq='M')).count()['title']
+
+plt.figure(figsize=(580/my_dpi, 360/my_dpi), dpi=my_dpi)
+df3df = pd.rolling_mean(df3, 5, center=True)
+fig = df3df.plot(yticks=[0.0, 0.5, 1.0, 1.5, 2.0, 2.5])
+fig.set_xlabel('Date')
+fig.set_ylabel('Number of books read')
+fig.set_title('Book read per month (5 month rolling average)')
+fig.get_figure().savefig('book_read.png')
