@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
   <book>
+         <author>Arthur Schnitzler</author>
+         <title>Sterben</title>
+         <tag>Fiction</tag>
+         <finnished>2017.10.15</finnished>
+ </book>
+  <book>
          <author>Gabriele Grünebaum, Dr. Med. Loay Okko</author>
          <title>Meine Schwangerschaft - Tag für Tag</title>
          <tag>Childbirth</tag>
