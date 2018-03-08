@@ -59,8 +59,16 @@ fig.get_figure().savefig('book_recorded.png')
 
 df3 = df.groupby(pd.Grouper(freq='M')).count()['title']
 
+# extend to current month to also include recent
+# periods without activity
+start = max(df3.index)
+end = pd.Timestamp.today() + pd.tseries.offsets.MonthEnd()
+
+
+df3a = df3.reindex(df3.index.union(pd.date_range(start=start, end=end,freq="M"))).fillna(0)
+
 plt.figure(figsize=(580/my_dpi, 360/my_dpi), dpi=my_dpi)
-df3df = pd.rolling_mean(df3, 5, center=True)
+df3df = pd.rolling_mean(df3a, 5, center=True)
 fig = df3df.plot(yticks=[0.0, 0.5, 1.0, 1.5, 2.0, 2.5])
 fig.set_xlabel('Date')
 fig.set_ylabel('Number of books read')
