@@ -4,7 +4,7 @@ I started this log on October 30th, 2012. I list all books I read.
 
 ### Statistics
 Total number of books read: 70  
-Books per month: 1.04 (2012/9 to 2018/3)
+Books per month: 1.03 (2012/9 to 2018/4)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
