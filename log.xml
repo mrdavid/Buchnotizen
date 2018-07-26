@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
   <book>
+         <author>熊谷 徹</author>
+         <title>5時に帰るドイツ人、5時から頑張る日本人</title>
+         <tag>Management</tag>
+         <finnished>2018.07.24</finnished>
+ </book>
+  <book>
          <author>Arthur Schnitzler</author>
          <title>Sterben</title>
          <tag>Fiction</tag>
