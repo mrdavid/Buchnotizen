@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
   <book>
+    <author>Richard Olney</author>
+    <title>Yquem</title>
+    <tag>Wine</tag>
+    <finnished>2018.09.21</finnished>
+    <isbn>0-86318-180-5</isbn>
+  </book>
+  <book>
          <author>熊谷 徹</author>
          <title>5時に帰るドイツ人、5時から頑張る日本人</title>
          <tag>Management</tag>

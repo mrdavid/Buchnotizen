@@ -42,7 +42,7 @@ for atype in books:
     total_books += 1
     books_list.append([atype.find('title').text, atype.find('author').text, atype.find('finnished').text])
 
-    print("*"+atype.find('title').text+"*, "+atype.find('author').text+"  ")
+    print("*"+atype.find('title').text+"*, "+atype.find('author').text+"  ").encode('utf-8')
     if atype.find('title') != None:
         print("Finished: " + atype.find('finnished').text)
     print("")
@@ -84,7 +84,7 @@ df3a = df3.reindex(df3.index.union(pd.date_range(start=start, end=end,freq="M"))
 
 # plot
 plt.figure(figsize=(580/my_dpi, 360/my_dpi), dpi=my_dpi)
-df3df = pd.rolling_mean(df3a, 5, center=True)
+df3df = df3a.rolling(window=5,center=True).mean()
 fig = df3df.plot(yticks=[0.0, 0.5, 1.0, 1.5, 2.0, 2.5])
 fig.set_xlabel('Date')
 fig.set_ylabel('Number of books read')

@@ -3,13 +3,16 @@
 I started this log on October 30th, 2012. I list all books I read.
 
 ### Statistics
-Total number of books read: 71  
-Books per month: 1.0 (2012/9 to 2018/7)
+Total number of books read: 72  
+Books per month: 0.99 (2012/9 to 2018/9)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
+*Yquem*, Richard Olney  
+Finished: 2018.09.21
+
 *5時に帰るドイツ人、5時から頑張る日本人*, 熊谷 徹  
 Finished: 2018.07.24
 
