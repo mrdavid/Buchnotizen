@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
   <book>
+    <author>Frank Herbert</author>
+    <title>Dune</title>
+    <tag>Fiction</tag>
+    <finnished>2019.01.05</finnished>
+    <isbn>978-0-441-17271-9</isbn>
+  </book>
+  <book>
     <author>Richard Olney</author>
     <title>Yquem</title>
     <tag>Wine</tag>

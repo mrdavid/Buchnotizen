@@ -3,13 +3,16 @@
 I started this log on October 30th, 2012. I list all books I read.
 
 ### Statistics
-Total number of books read: 72  
-Books per month: 0.99 (2012/9 to 2018/9)
+Total number of books read: 73  
+Books per month: 0.95 (2012/9 to 2019/1)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
+*Dune*, Frank Herbert  
+Finished: 2019.01.05
+
 *Yquem*, Richard Olney  
 Finished: 2018.09.21
 
