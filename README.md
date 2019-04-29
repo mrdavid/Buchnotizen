@@ -3,229 +3,232 @@
 I started this log on October 30th, 2012. I list all books I read.
 
 ### Statistics
-Total number of books read: 73  
-Books per month: 0.95 (2012/9 to 2019/1)
+Total number of books read: 74  
+Books per month: 0.93 (2012/9 to 2019/4)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
-*Dune*, Frank Herbert  
+b'*Rausch der Verwandlung*, Stefan Zweig  '
+Finished: 2019.04.26
+
+b'*Dune*, Frank Herbert  '
 Finished: 2019.01.05
 
-*Yquem*, Richard Olney  
+b'*Yquem*, Richard Olney  '
 Finished: 2018.09.21
 
-*5時に帰るドイツ人、5時から頑張る日本人*, 熊谷 徹  
+b'*5\xe6\x99\x82\xe3\x81\xab\xe5\xb8\xb0\xe3\x82\x8b\xe3\x83\x89\xe3\x82\xa4\xe3\x83\x84\xe4\xba\xba\xe3\x80\x815\xe6\x99\x82\xe3\x81\x8b\xe3\x82\x89\xe9\xa0\x91\xe5\xbc\xb5\xe3\x82\x8b\xe6\x97\xa5\xe6\x9c\xac\xe4\xba\xba*, \xe7\x86\x8a\xe8\xb0\xb7 \xe5\xbe\xb9  '
 Finished: 2018.07.24
 
-*Sterben*, Arthur Schnitzler  
+b'*Sterben*, Arthur Schnitzler  '
 Finished: 2017.10.15
 
-*Meine Schwangerschaft - Tag für Tag*, Gabriele Grünebaum, Dr. Med. Loay Okko  
+b'*Meine Schwangerschaft - Tag f\xc3\xbcr Tag*, Gabriele Gr\xc3\xbcnebaum, Dr. Med. Loay Okko  '
 Finished: 2017.09.23
 
-*High Output Management*, Adrew S. Grove  
+b'*High Output Management*, Adrew S. Grove  '
 Finished: 2017.08.28
 
-*Baby Betriebsanleitung*, Joe Borgenicht, Dr. Louis Borgenicht  
+b'*Baby Betriebsanleitung*, Joe Borgenicht, Dr. Louis Borgenicht  '
 Finished: 2017.08.13
 
-*Das große Buch für Babys erstes Jahr*, Dr. med. Stephan Nolte, Annette Nolden  
+b'*Das gro\xc3\x9fe Buch f\xc3\xbcr Babys erstes Jahr*, Dr. med. Stephan Nolte, Annette Nolden  '
 Finished: 2017.07.02
 
-*The Pyramid Principle*, Barbara Minto  
+b'*The Pyramid Principle*, Barbara Minto  '
 Finished: 2017.06.11
 
-*The Management Myth*, Matthew Stewart  
+b'*The Management Myth*, Matthew Stewart  '
 Finished: 2017.05.24
 
-*Astrophysics: A Very Short Introduction*, James Binney  
+b'*Astrophysics: A Very Short Introduction*, James Binney  '
 Finished: 2017.03.28
 
-*How Google works*, Eric Schmidt, Jonathan Rosenberg  
+b'*How Google works*, Eric Schmidt, Jonathan Rosenberg  '
 Finished: 2017.03.08
 
-*Dogs and Demons*, Alex Kerr  
+b'*Dogs and Demons*, Alex Kerr  '
 Finished: 2017.02.14
 
-*Windows On The World Complete Wine Course*, Kevin Zraly  
+b'*Windows On The World Complete Wine Course*, Kevin Zraly  '
 Finished: 2017.01.31
 
-*Die Räuber*, Friedrich Schiller  
+b'*Die R\xc3\xa4uber*, Friedrich Schiller  '
 Finished: 2017.01.18
 
-*Schachnovelle*, Stefan Zweig  
+b'*Schachnovelle*, Stefan Zweig  '
 Finished: 2016.12.15
 
-*Mann und Vater sein*, Jesper Juul  
+b'*Mann und Vater sein*, Jesper Juul  '
 Finished: 2016.11.23
 
-*Flucht in die Finsternis*, Arthur Schnitzler  
+b'*Flucht in die Finsternis*, Arthur Schnitzler  '
 Finished: 2016.10.22
 
-*Spiel im Morgengrauen*, Arthur Schnitzler  
+b'*Spiel im Morgengrauen*, Arthur Schnitzler  '
 Finished: 2016.08.14
 
-*The 4-hour work week*, Tim Ferris  
+b'*The 4-hour work week*, Tim Ferris  '
 Finished: 2016.07.28
 
-*Reigen*, Arthur Schnitzler  
+b'*Reigen*, Arthur Schnitzler  '
 Finished: 2016.07.11
 
-*Momo*, Michael Ende  
+b'*Momo*, Michael Ende  '
 Finished: 2016.05.24
 
-*Surely you're joking, Mr. Feynman!*, Richard Feynman  
+b"*Surely you're joking, Mr. Feynman!*, Richard Feynman  "
 Finished: 2016.02.06
 
-*The Old Man and the Sea*, Ernest Hemingway  
+b'*The Old Man and the Sea*, Ernest Hemingway  '
 Finished: 2016.01.22
 
-*The Monocle Guide to Good Business*, Monocle  
+b'*The Monocle Guide to Good Business*, Monocle  '
 Finished: 2016.01.11
 
-*Prelude to mathematics*, Walter W. Sawyer  
+b'*Prelude to mathematics*, Walter W. Sawyer  '
 Finished: 2015.12.27
 
-*Getting things done*, David Allen  
+b'*Getting things done*, David Allen  '
 Finished: 2015.12.17
 
-*Accounting for Dummies*, John A. Tracy  
+b'*Accounting for Dummies*, John A. Tracy  '
 Finished: 2015.11.30
 
-*An Introduction to Global Financial Markets*, Stephen Valdez  
+b'*An Introduction to Global Financial Markets*, Stephen Valdez  '
 Finished: 2015.09.23
 
-*The Search for Modern China*, Jonathan D. Spence  
+b'*The Search for Modern China*, Jonathan D. Spence  '
 Finished: 2015.05.03
 
-*Zero to One*, Peter Thiel  
+b'*Zero to One*, Peter Thiel  '
 Finished: 2015.04.15
 
-*Harvard Business Review - 10 Must Reads on Leadership*, Various  
+b'*Harvard Business Review - 10 Must Reads on Leadership*, Various  '
 Finished: 2015.03.08
 
-*Notebooks of the Mind*, Vera John-Steiner  
+b'*Notebooks of the Mind*, Vera John-Steiner  '
 Finished: 2015.01.10
 
-*Corporate Fraud*, Maryam Hussain  
+b'*Corporate Fraud*, Maryam Hussain  '
 Finished: 2014.12.17
 
-*Getting to Yes*, William Ury, Roger Fisher  
+b'*Getting to Yes*, William Ury, Roger Fisher  '
 Finished: 2014.09.15
 
-*The Power of a Positive No*, William Ury  
+b'*The Power of a Positive No*, William Ury  '
 Finished: 2014.08.18
 
-*Heart of Darkness*, Joseph Conrad  
+b'*Heart of Darkness*, Joseph Conrad  '
 Finished: 2014.06.05
 
-*The Crucible*, Arthur Miller  
+b'*The Crucible*, Arthur Miller  '
 Finished: 2014.05.28
 
-*Der Richter und sein Henker*, Friedrich Dürrenmatt  
+b'*Der Richter und sein Henker*, Friedrich D\xc3\xbcrrenmatt  '
 Finished: 2014.05.26
 
-*Crashkurs*, Dirk Müller  
+b'*Crashkurs*, Dirk M\xc3\xbcller  '
 Finished: 2014.05.08
 
-*How animals work*, Knut Schmidt-Nielsen  
+b'*How animals work*, Knut Schmidt-Nielsen  '
 Finished: 2014.05.05
 
-*Eine kurze Geschichte des Abendlandes in 12 Bauwerken*, Edward Hollis  
+b'*Eine kurze Geschichte des Abendlandes in 12 Bauwerken*, Edward Hollis  '
 Finished: 2014.04.25
 
-*A random walk down Wall Street*, Burton G. Malkiel  
+b'*A random walk down Wall Street*, Burton G. Malkiel  '
 Finished: 2014.03.21
 
-*The (mis)behaviour of markets*, Benoit Mandelbrot  
+b'*The (mis)behaviour of markets*, Benoit Mandelbrot  '
 Finished: 2014.02.24
 
-*Fabian - Die Geschichte eines Moralisten*, Erich K&auml;stner  
+b'*Fabian - Die Geschichte eines Moralisten*, Erich K&auml;stner  '
 Finished: 2014.01.17
 
-*The Mathematician's Mind*, Jacques Hadamard  
+b"*The Mathematician's Mind*, Jacques Hadamard  "
 Finished: 2014.01.04
 
-*Wie soll man leben?*, Marc Aurel/Anton Cechov  
+b'*Wie soll man leben?*, Marc Aurel/Anton Cechov  '
 Finished: 2013.12.31
 
-*On Truth*, Harry G. Frankfurt  
+b'*On Truth*, Harry G. Frankfurt  '
 Finished: 2013.12.30
 
-*On Bullshit*, Harry G. Frankfurt  
+b'*On Bullshit*, Harry G. Frankfurt  '
 Finished: 2013.12.28
 
-*Lust, Caution*, Eileen Chang  
+b'*Lust, Caution*, Eileen Chang  '
 Finished: 2013.12.06
 
-*The Road*, Cormac McCarthy  
+b'*The Road*, Cormac McCarthy  '
 Finished: 2013.10.12
 
-*Der Idiot*, Fyodor Dostoyevsky  
+b'*Der Idiot*, Fyodor Dostoyevsky  '
 Finished: 2013.09.29
 
-*Dreams of a final theory*, Steven Weinberg  
+b'*Dreams of a final theory*, Steven Weinberg  '
 Finished: 2013.09.07
 
-*The Creative Habit*, Twyla Tharp  
+b'*The Creative Habit*, Twyla Tharp  '
 Finished: 2013.08.09
 
-*Bartleby, the Scrivener: a Story of Wall Street*, Herman Melville  
+b'*Bartleby, the Scrivener: a Story of Wall Street*, Herman Melville  '
 Finished: 2013.08.02
 
-*Rich dad, poor dad*, Robert Kiyozaki  
+b'*Rich dad, poor dad*, Robert Kiyozaki  '
 Finished: 2013.07.30
 
-*How to stop worrying and start living*, Dale Carnegie  
+b'*How to stop worrying and start living*, Dale Carnegie  '
 Finished: 2013.07.27
 
-*How to win friends and influence people*, Dale Carnegie  
+b'*How to win friends and influence people*, Dale Carnegie  '
 Finished: 2013.07.20
 
-*Screw it - Let's do it*, Richard Branson  
+b"*Screw it - Let's do it*, Richard Branson  "
 Finished: 2013.07.01
 
-*JavaScript: The Good Parts*, Douglas Crockford  
+b'*JavaScript: The Good Parts*, Douglas Crockford  '
 Finished: 2013.06.10
 
-*Das f&uuml;nfte Buch*, Alexander Kluge  
+b'*Das f&uuml;nfte Buch*, Alexander Kluge  '
 Finished: 2013.06.18
 
-*Agile Software Development with Scrum*, Ken Schwaber, Mike Beedle  
+b'*Agile Software Development with Scrum*, Ken Schwaber, Mike Beedle  '
 Finished: 2013.05.15
 
-*Quiet: The Power of Introverts in a World that can't stop talking*, Susan Cain  
+b"*Quiet: The Power of Introverts in a World that can't stop talking*, Susan Cain  "
 Finished: 2013.04.12
 
-*Gestatten: Elite*, Julia Friedrichs  
+b'*Gestatten: Elite*, Julia Friedrichs  '
 Finished: 2013.03.22
 
-*Traumnovelle*, Arthur Schnitzler  
+b'*Traumnovelle*, Arthur Schnitzler  '
 Finished: 2013.03.05
 
-*Coffee Life in Japan*, Marry White  
+b'*Coffee Life in Japan*, Marry White  '
 Finished: 2013.02.13
 
-*An Introduction to Japanese Society*, Yoshio Sugimoto  
+b'*An Introduction to Japanese Society*, Yoshio Sugimoto  '
 Finished: 2013.02.03
 
-*Das trunkene Land: Erzählungen*, Lu Xun  
+b'*Das trunkene Land: Erz\xc3\xa4hlungen*, Lu Xun  '
 Finished: 2013.01.14
 
-*死ぬかと思った*, 林 雄司  
+b'*\xe6\xad\xbb\xe3\x81\xac\xe3\x81\x8b\xe3\x81\xa8\xe6\x80\x9d\xe3\x81\xa3\xe3\x81\x9f*, \xe6\x9e\x97 \xe9\x9b\x84\xe5\x8f\xb8  '
 Finished: 2012.12.26
 
-*Tsukiji: The Fish Market at the Center of the World*, Theodore C. Bestor  
+b'*Tsukiji: The Fish Market at the Center of the World*, Theodore C. Bestor  '
 Finished: 2012.11.28
 
-*Love in a fallen city: And other stories*, Eileen Chang  
+b'*Love in a fallen city: And other stories*, Eileen Chang  '
 Finished: 2012.12.31
 
-*The Cambridge Illustrated History of China*, Patricia Buckley Ebrey  
+b'*The Cambridge Illustrated History of China*, Patricia Buckley Ebrey  '
 Finished: 2012.10.29
 
-*An Interpretive Introduction to Quantum Field Theory*, Paul Teller  
+b'*An Interpretive Introduction to Quantum Field Theory*, Paul Teller  '
 Finished: 2012.09.14
 

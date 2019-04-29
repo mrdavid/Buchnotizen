@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
   <book>
+    <author>Stefan Zweig</author>
+    <title>Rausch der Verwandlung</title>
+    <tag>Fiction</tag>
+    <finnished>2019.04.26</finnished>
+    <isbn>3-10-097054-3</isbn>
+  </book>
+  <book>
     <author>Frank Herbert</author>
     <title>Dune</title>
     <tag>Fiction</tag>
