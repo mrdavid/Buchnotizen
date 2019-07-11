@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
   <book>
+    <author>George R. R. Martin</author>
+    <title>Game of Thrones</title>
+    <tag>Fiction</tag>
+    <finnished>2019.07.10</finnished>
+  </book>
+  <book>
     <author>Stefan Zweig</author>
     <title>Rausch der Verwandlung</title>
     <tag>Fiction</tag>

@@ -3,13 +3,16 @@
 I started this log on October 30th, 2012. I list all books I read.
 
 ### Statistics
-Total number of books read: 74  
-Books per month: 0.93 (2012/9 to 2019/4)
+Total number of books read: 75  
+Books per month: 0.9 (2012/9 to 2019/7)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
+*Game of Thrones*, George R. R. Martin  
+Finished: 2019.07.10
+
 *Rausch der Verwandlung*, Stefan Zweig  
 Finished: 2019.04.26
 
