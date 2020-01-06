@@ -17,6 +17,7 @@ now = datetime.datetime.now()
 print("# Literature log")
 print("")
 print("I started this log on October 30th, 2012. I list all books I read.")
+print("The most significant events impacting the amount I read are the birth of my daughers in 2018/01 and 2019/08 as well as job changes in 2016/01 and 2019/03.")
 print("")
 
 total_books = 0
