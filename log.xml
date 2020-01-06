@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
   <book>
+    <author>Scott H. Young</author>
+    <title>Ultralearning</title>
+    <tag>Self-Help</tag>
+    <finnished>2020.01.06</finnished>
+  </book>
+  <book>
     <author>George R. R. Martin</author>
-    <title>Game of Thrones</title>
+    <title>A Game of Thrones</title>
     <tag>Fiction</tag>
     <finnished>2019.07.10</finnished>
   </book>
