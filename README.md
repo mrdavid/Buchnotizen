@@ -1,16 +1,24 @@
 # Literature log
 
-I started this log on October 30th, 2012. I list all books I read.
-The most significant events impacting the amount I read are the birth of my daughers in 2018/01 and 2019/08 as well as job changes in 2016/01 and 2019/03.
+I started this log on October 30th, 2012. I list all books I read.  
+The most significant events impacting the number of books I read are
+* Job changes in 2016/01 and 2019/03.
+* The birth of my daughers in 2018/01 and 2019/08
 
 ### Statistics
-Total number of books read: 76  
-Books per month: 0.85 (2012/9 to 2020/1)
+Total number of books read: 78  
+Books per month: 0.82 (2012/9 to 2020/7)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
+*The checklist manifesto*, Atul Gawande  
+Finished: 2020.07.17
+
+*The Good Parts of AWS*, Josh Pschorr, Daniel Vassallo  
+Finished: 2020.01.10
+
 *Ultralearning*, Scott H. Young  
 Finished: 2020.01.06
 

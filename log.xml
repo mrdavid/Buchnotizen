@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
   <book>
+    <author>Atul Gawande</author>
+    <title>The checklist manifesto</title>
+    <tag>Nonfiction</tag>
+    <finnished>2020.07.17</finnished>
+  </book>
+  <book>
+    <author>Josh Pschorr, Daniel Vassallo</author>
+    <title>The Good Parts of AWS</title>
+    <tag>Technology</tag>
+    <finnished>2020.01.10</finnished>
+  </book>
+  <book>
     <author>Scott H. Young</author>
     <title>Ultralearning</title>
     <tag>Self-Help</tag>
