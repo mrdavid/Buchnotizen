@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
   <book>
+    <author>Fischer, Margulies, Mosenfelder</author>
+    <title>Bobby Fischer teaches chess</title>
+    <tag>Nonfiction</tag>
+    <finnished>2020.09.13</finnished>
+  </book>
+  <book>
     <author>Atul Gawande</author>
     <title>The checklist manifesto</title>
     <tag>Nonfiction</tag>

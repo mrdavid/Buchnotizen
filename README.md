@@ -6,13 +6,16 @@ The most significant events impacting the number of books I read are
 * The birth of my daughers in 2018/01 and 2019/08
 
 ### Statistics
-Total number of books read: 78  
-Books per month: 0.82 (2012/9 to 2020/7)
+Total number of books read: 79  
+Books per month: 0.81 (2012/9 to 2020/9)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
+*Bobby Fischer teaches chess*, Fischer, Margulies, Mosenfelder  
+Finished: 2020.09.13
+
 *The checklist manifesto*, Atul Gawande  
 Finished: 2020.07.17
 
