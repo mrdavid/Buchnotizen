@@ -6,13 +6,16 @@ The most significant events impacting the number of books I read are
 * The birth of my daughers in 2018/01 and 2019/08
 
 ### Statistics
-Total number of books read: 79  
-Books per month: 0.81 (2012/9 to 2020/9)
+Total number of books read: 80  
+Books per month: 0.79 (2012/9 to 2021/1)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
+*Von der Kürze des Lebens*, Seneca  
+Finished: 2021.01.15
+
 *Bobby Fischer teaches chess*, Fischer, Margulies, Mosenfelder  
 Finished: 2020.09.13
 

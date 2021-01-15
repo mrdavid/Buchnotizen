@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
+<book>
+<author>Seneca</author>
+<title>Von der Kürze des Lebens</title>
+<tag>Nonfiction</tag>
+<finnished>2021.01.15</finnished>
+</book>
   <book>
     <author>Fischer, Margulies, Mosenfelder</author>
     <title>Bobby Fischer teaches chess</title>
