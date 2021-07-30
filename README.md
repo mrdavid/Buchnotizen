@@ -6,13 +6,16 @@ The most significant events impacting the number of books I read are
 * The birth of my daughers in 2018/01 and 2019/08
 
 ### Statistics
-Total number of books read: 80  
-Books per month: 0.79 (2012/9 to 2021/1)
+Total number of books read: 81  
+Books per month: 0.76 (2012/9 to 2021/7)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
+*Radical Acceptance*, Tara Brach  
+Finished: 2021.07.31
+
 *Von der Kürze des Lebens*, Seneca  
 Finished: 2021.01.15
 

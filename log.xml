@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
 <book>
+<author>Tara Brach</author>
+<title>Radical Acceptance</title>
+<tag>Nonfiction</tag>
+<finnished>2021.07.31</finnished>
+</book>
+<book>
 <author>Seneca</author>
 <title>Von der Kürze des Lebens</title>
 <tag>Nonfiction</tag>
