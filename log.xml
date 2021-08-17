@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
 <book>
+<author>Viktor Frankl</author>
+<title>Trotzdem Ja zum Leben sagen</title>
+<tag>Nonfiction</tag>
+<finnished>2021.08.17</finnished>
+</book>
+<book>
 <author>Tara Brach</author>
 <title>Radical Acceptance</title>
 <tag>Nonfiction</tag>
