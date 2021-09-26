@@ -6,13 +6,16 @@ The most significant events impacting the number of books I read are
 * The birth of my daughers in 2018/01 and 2019/08
 
 ### Statistics
-Total number of books read: 82  
-Books per month: 0.76 (2012/9 to 2021/8)
+Total number of books read: 83  
+Books per month: 0.76 (2012/9 to 2021/9)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
+*Eleventh hour CISSP: Study guide*, Eric Conrad, Seth Misenar, Joshua Feldman  
+Finished: 2021.09.26
+
 *Trotzdem Ja zum Leben sagen*, Viktor Frankl  
 Finished: 2021.08.17
 

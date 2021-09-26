@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
 <book>
+<author>Eric Conrad, Seth Misenar, Joshua Feldman</author>
+<title>Eleventh hour CISSP: Study guide</title>
+<tag>Nonfiction</tag>
+<finnished>2021.09.26</finnished>
+</book>
+<book>
 <author>Viktor Frankl</author>
 <title>Trotzdem Ja zum Leben sagen</title>
 <tag>Nonfiction</tag>
