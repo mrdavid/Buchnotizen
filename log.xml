@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
 <book>
+<author>Liu Cixin</author>
+<title>The Three-Body Problem</title>
+<tag>Fiction</tag>
+<finnished>2021.11.22</finnished>
+</book>
+<book>
 <author>Eric Conrad, Seth Misenar, Joshua Feldman</author>
 <title>Eleventh hour CISSP: Study guide</title>
 <tag>Nonfiction</tag>

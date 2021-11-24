@@ -6,13 +6,16 @@ The most significant events impacting the number of books I read are
 * The birth of my daughers in 2018/01 and 2019/08
 
 ### Statistics
-Total number of books read: 83  
-Books per month: 0.76 (2012/9 to 2021/9)
+Total number of books read: 84  
+Books per month: 0.76 (2012/9 to 2021/11)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
+*The Three-Body Problem*, Liu Cixin  
+Finished: 2021.11.22
+
 *Eleventh hour CISSP: Study guide*, Eric Conrad, Seth Misenar, Joshua Feldman  
 Finished: 2021.09.26
 
