@@ -6,13 +6,16 @@ The most significant events impacting the number of books I read are
 * The birth of my daughers in 2018/01 and 2019/08
 
 ### Statistics
-Total number of books read: 84  
-Books per month: 0.76 (2012/9 to 2021/11)
+Total number of books read: 85  
+Books per month: 0.75 (2012/9 to 2022/2)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
+*The body keeps the score*, Bessel van der Kolk  
+Finished: 2022.02.12
+
 *The Three-Body Problem*, Liu Cixin  
 Finished: 2021.11.22
 

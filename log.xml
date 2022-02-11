@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
 <book>
+<author>Bessel van der Kolk</author>
+<title>The body keeps the score</title>
+<tag>Nonfiction</tag>
+<finnished>2022.02.12</finnished>
+</book>
+<book>
 <author>Liu Cixin</author>
 <title>The Three-Body Problem</title>
 <tag>Fiction</tag>
