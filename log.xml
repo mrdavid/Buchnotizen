@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
+	
+<book>
+<author>Boyd Varty</author>
+<title>The lion tracker's guide to life</title>
+<tag>Nonfiction</tag>
+<finnished>2022.05.03</finnished>
+</book>
 <book>
 <author>Bessel van der Kolk</author>
 <title>The body keeps the score</title>
