@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
-	
+<book>
+<author>Neil Gaiman, Terry Pratchett</author>
+<title>Good Omens</title>
+<tag>Fiction</tag>
+<finnished>2022.09.24</finnished>
+</book>
 <book>
 <author>Boyd Varty</author>
 <title>The lion tracker's guide to life</title>

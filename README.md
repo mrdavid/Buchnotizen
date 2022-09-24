@@ -6,13 +6,16 @@ The most significant events impacting the number of books I read are
 * The birth of my daughers in 2018/01 and 2019/08
 
 ### Statistics
-Total number of books read: 86  
-Books per month: 0.74 (2012/9 to 2022/5)
+Total number of books read: 87  
+Books per month: 0.72 (2012/9 to 2022/9)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
+*Good Omens*, Neil Gaiman, Terry Pratchett  
+Finished: 2022.09.24
+
 *The lion tracker's guide to life*, Boyd Varty  
 Finished: 2022.05.03
 
