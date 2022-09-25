@@ -13,11 +13,11 @@ Books per month: 0.73 (2012/9 to 2022/9)
 ![Books read per month](book_read.png)
 
 ### List of books
-*How to change your mind*, Michael Pollan  
-Finished: 2022.09.01
-
 *Good Omens*, Neil Gaiman, Terry Pratchett  
 Finished: 2022.09.24
+
+*How to change your mind*, Michael Pollan  
+Finished: 2022.09.01
 
 *The lion tracker's guide to life*, Boyd Varty  
 Finished: 2022.05.03

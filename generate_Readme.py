@@ -68,7 +68,7 @@ df2.index = df2.year
 # plot total books recorded each year
 # Note: 2012 doesn't have data for the whole year, so it's books recorded, not book read
 my_dpi=100
-plt.figure(figsize=(580/my_dpi, 360/my_dpi), dpi=my_dpi)
+plt.figure(figsize=(780/my_dpi, 360/my_dpi), dpi=my_dpi)
 fig = df2.plot(kind='bar')
 fig.set_xlabel('Year')
 fig.set_ylabel('Number of books recorded')
@@ -86,7 +86,7 @@ end = pd.Timestamp.today() + pd.tseries.offsets.MonthEnd()
 df3a = df3.reindex(df3.index.union(pd.date_range(start=start, end=end,freq="M"))).fillna(0)
 
 # plot
-plt.figure(figsize=(580/my_dpi, 360/my_dpi), dpi=my_dpi)
+plt.figure(figsize=(780/my_dpi, 360/my_dpi), dpi=my_dpi)
 df3df = df3a.rolling(window=5,center=True).mean()
 fig = df3df.plot(yticks=[0.0, 0.5, 1.0, 1.5, 2.0, 2.5])
 fig.set_xlabel('Date')
