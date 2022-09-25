@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
 <book>
+  <author>Michael Pollan</author>
+  <title>How to change your mind</title>
+  <tag>Nonfiction</tag>
+  <finnished>2022.09.01</finnished>
+</book>
+<book>
 <author>Neil Gaiman, Terry Pratchett</author>
 <title>Good Omens</title>
 <tag>Fiction</tag>
