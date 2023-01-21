@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
 <book>
+<author>Astrid Lindgren</author>
+<title>Die Brüder Löwenherz</title>
+<tag>Fiction</tag>
+<finnished>2023.01.21</finnished>
+</book>
+<book>
 <author>Neil Gaiman, Terry Pratchett</author>
 <title>Good Omens</title>
 <tag>Fiction</tag>
