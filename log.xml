@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
+	<book>
+<author>Cal Newport</author>
+<title>Deep Work</title>
+<tag>Nonfiction</tag>
+<finnished>2023.02.17</finnished>
+</book>
 <book>
 <author>Astrid Lindgren</author>
 <title>Die Brüder Löwenherz</title>
