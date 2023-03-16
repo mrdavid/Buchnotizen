@@ -6,13 +6,16 @@ The most significant events impacting the number of books I read are
 * The birth of my daughers in 2018/01 and 2019/08
 
 ### Statistics
-Total number of books read: 90  
-Books per month: 0.71 (2012/9 to 2023/2)
+Total number of books read: 91  
+Books per month: 0.72 (2012/9 to 2023/3)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
+*Dune: Messiah*, Frank Herbert  
+Finished: 2023.03.16
+
 *Deep Work*, Cal Newport  
 Finished: 2023.02.17
 

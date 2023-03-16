@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
-	<book>
+<book>
+	<author>Frank Herbert</author>
+	<title>Dune: Messiah</title>
+	<tag>Fiction</tag>
+	<finnished>2023.03.16</finnished>
+</book>	
+<book>
 <author>Cal Newport</author>
 <title>Deep Work</title>
 <tag>Nonfiction</tag>
