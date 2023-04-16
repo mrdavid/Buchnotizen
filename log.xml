@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
+	
+<book>
+	<author>Frank Herbert</author>
+	<title>Children of Dune</title>
+	<tag>Fiction</tag>
+	<finnished>2023.04.15</finnished>
+</book>	
 <book>
 	<author>Frank Herbert</author>
 	<title>Dune: Messiah</title>
