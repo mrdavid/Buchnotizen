@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
-	
+<book>
+	<author>Frank Herbert</author>
+	<title>God emperor of Dune</title>
+	<tag>Fiction</tag>
+	<finnished>2023.05.05</finnished>
+</book>	
 <book>
 	<author>Frank Herbert</author>
 	<title>Children of Dune</title>
