@@ -70,6 +70,7 @@ df2.index = df2.year
 my_dpi=100
 plt.figure(figsize=(780/my_dpi, 360/my_dpi), dpi=my_dpi)
 fig = df2.plot(kind='bar')
+fig.axhline(y = 12, color = 'r', linestyle = 'dashed')
 fig.set_xlabel('Year')
 fig.set_ylabel('Number of books recorded')
 fig.set_title('Books recorded')
