@@ -13,7 +13,7 @@ Books per month: 0.74 (2012/9 to 2023/6)
 ![Books read per month](book_read.png)
 
 ### List of books
-*Dune: Chapterhouse*, Frank Herbert  
+*Chapterhouse: Dune*, Frank Herbert  
 Finished: 2023.06.27
 
 *Heretics of Dune*, Frank Herbert  
