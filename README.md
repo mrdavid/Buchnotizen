@@ -6,8 +6,8 @@ The most significant events impacting the number of books I read are
 * The birth of my daughers in 2018/01 and 2019/08
 
 ### Statistics
-Total number of books read: 96  
-Books per month: 0.71 (2012/9 to 2023/11)
+Total number of books read: 97  
+Books per month: 0.72 (2012/9 to 2023/11)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
@@ -15,6 +15,9 @@ Books per month: 0.71 (2012/9 to 2023/11)
 ### List of books
 *Snow Crash*, Neal Stephenson  
 Finished: 2023.11.13
+
+*Dune: Chapterhouse*, Frank Herbert  
+Finished: 2023.06.27
 
 *Heretics of Dune*, Frank Herbert  
 Finished: 2023.06.10
