@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
 <book>
-	<author>Frank Herbert</author>
-	<title>Chapterhouse: Dune</title>
+	<author>Neal Stephenson</author>
+	<title>Snow Crash</title>
 	<tag>Fiction</tag>
-	<finnished>2023.06.27</finnished>
+	<finnished>2023.11.13</finnished>
 </book>
 <book>
 	<author>Frank Herbert</author>

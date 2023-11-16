@@ -7,14 +7,14 @@ The most significant events impacting the number of books I read are
 
 ### Statistics
 Total number of books read: 96  
-Books per month: 0.74 (2012/9 to 2023/6)
+Books per month: 0.71 (2012/9 to 2023/11)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
-*Chapterhouse: Dune*, Frank Herbert  
-Finished: 2023.06.27
+*Snow Crash*, Neal Stephenson  
+Finished: 2023.11.13
 
 *Heretics of Dune*, Frank Herbert  
 Finished: 2023.06.10
