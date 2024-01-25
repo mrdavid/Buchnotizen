@@ -6,13 +6,16 @@ The most significant events impacting the number of books I read are
 * The birth of my daughers in 2018/01 and 2019/08
 
 ### Statistics
-Total number of books read: 97  
-Books per month: 0.72 (2012/9 to 2023/11)
+Total number of books read: 98  
+Books per month: 0.72 (2012/9 to 2024/1)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
+*The day the world stops shopping*, J.B. Mackinnon  
+Finished: 2024.01.25
+
 *Snow Crash*, Neal Stephenson  
 Finished: 2023.11.13
 

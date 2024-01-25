@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
 <book>
+	<author>J.B. Mackinnon</author>
+	<title>The day the world stops shopping</title>
+	<tag>Nonfiction</tag>
+	<finnished>2024.01.25</finnished>
+</book>
+<book>
 	<author>Neal Stephenson</author>
 	<title>Snow Crash</title>
 	<tag>Fiction</tag>
