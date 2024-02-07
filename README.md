@@ -6,13 +6,16 @@ The most significant events impacting the number of books I read are
 * The birth of my daughers in 2018/01 and 2019/08
 
 ### Statistics
-Total number of books read: 98  
-Books per month: 0.72 (2012/9 to 2024/1)
+Total number of books read: 99  
+Books per month: 0.72 (2012/9 to 2024/2)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
+*Hyperion*, Dan Simmons  
+Finished: 2024.02.07
+
 *The day the world stops shopping*, J.B. Mackinnon  
 Finished: 2024.01.25
 
