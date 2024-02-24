@@ -13,11 +13,11 @@ Books per month: 0.72 (2012/9 to 2024/2)
 ![Books read per month](book_read.png)
 
 ### List of books
-*Hyperion*, Dan Simmons  
-Finished: 2024.02.07
-
 *The Fall of Hyperion*, Dan Simmons  
 Finished: 2024.02.23
+
+*Hyperion*, Dan Simmons  
+Finished: 2024.02.07
 
 *The day the world stops shopping*, J.B. Mackinnon  
 Finished: 2024.01.25
