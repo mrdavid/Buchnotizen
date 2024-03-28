@@ -2,6 +2,12 @@
 <books>
 <book>
 	<author>Dan Simmons</author>
+	<title>Endymion</title>
+	<tag>Fiction</tag>
+	<finnished>2024.03.27</finnished>
+</book>
+<book>
+	<author>Dan Simmons</author>
 	<title>The Fall of Hyperion</title>
 	<tag>Fiction</tag>
 	<finnished>2024.02.23</finnished>

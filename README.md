@@ -6,13 +6,16 @@ The most significant events impacting the number of books I read are
 * The birth of my daughers in 2018/01 and 2019/08
 
 ### Statistics
-Total number of books read: 100  
-Books per month: 0.72 (2012/9 to 2024/2)
+Total number of books read: 101  
+Books per month: 0.73 (2012/9 to 2024/3)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
+*Endymion*, Dan Simmons  
+Finished: 2024.03.27
+
 *The Fall of Hyperion*, Dan Simmons  
 Finished: 2024.02.23
 
