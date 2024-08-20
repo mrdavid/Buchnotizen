@@ -6,13 +6,16 @@ The most significant events impacting the number of books I read are
 * The birth of my daughers in 2018/01 and 2019/08
 
 ### Statistics
-Total number of books read: 104  
-Books per month: 0.73 (2012/9 to 2024/7)
+Total number of books read: 105  
+Books per month: 0.73 (2012/9 to 2024/8)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
+*A fire upon the deep*, Vernor Vinge  
+Finished: 2024.08.18
+
 *Neuromancer*, William Gibson  
 Finished: 2024.07.20
 

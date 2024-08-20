@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
 <book>
+	<author>Vernor Vinge</author>
+	<title>A fire upon the deep</title>
+	<tag>Fiction</tag>
+	<finnished>2024.08.18</finnished>
+</book>
+<book>
 	<author>William Gibson</author>
 	<title>Neuromancer</title>
 	<tag>Fiction</tag>
