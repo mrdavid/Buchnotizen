@@ -6,13 +6,16 @@ The most significant events impacting the number of books I read are
 * The birth of my daughers in 2018/01 and 2019/08
 
 ### Statistics
-Total number of books read: 105  
-Books per month: 0.73 (2012/9 to 2024/8)
+Total number of books read: 106  
+Books per month: 0.74 (2012/9 to 2024/8)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
+*Cracking the PM interview*, Gayle McDowell, Jackie Bavaro  
+Finished: 2024.08.25
+
 *A fire upon the deep*, Vernor Vinge  
 Finished: 2024.08.18
 
