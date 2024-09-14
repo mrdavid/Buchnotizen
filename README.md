@@ -6,13 +6,16 @@ The most significant events impacting the number of books I read are
 * The birth of my daughers in 2018/01 and 2019/08
 
 ### Statistics
-Total number of books read: 106  
-Books per month: 0.74 (2012/9 to 2024/8)
+Total number of books read: 107  
+Books per month: 0.74 (2012/9 to 2024/9)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
+*Leviathan wakes*, James S. A. Corey  
+Finished: 2024.09.14
+
 *Cracking the PM interview*, Gayle McDowell, Jackie Bavaro  
 Finished: 2024.08.25
 
