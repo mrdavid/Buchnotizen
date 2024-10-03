@@ -2,6 +2,12 @@
 <books>
 <book>
 	<author>James S. A. Corey</author>
+	<title>Caliban's war</title>
+	<tag>Fiction</tag>
+	<finnished>2024.10.03</finnished>
+</book>
+<book>
+	<author>James S. A. Corey</author>
 	<title>Leviathan wakes</title>
 	<tag>Fiction</tag>
 	<finnished>2024.09.14</finnished>

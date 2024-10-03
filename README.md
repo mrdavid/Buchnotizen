@@ -6,13 +6,16 @@ The most significant events impacting the number of books I read are
 * The birth of my daughers in 2018/01 and 2019/08
 
 ### Statistics
-Total number of books read: 107  
-Books per month: 0.74 (2012/9 to 2024/9)
+Total number of books read: 108  
+Books per month: 0.74 (2012/9 to 2024/10)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
+*Caliban's war*, James S. A. Corey  
+Finished: 2024.10.03
+
 *Leviathan wakes*, James S. A. Corey  
 Finished: 2024.09.14
 
