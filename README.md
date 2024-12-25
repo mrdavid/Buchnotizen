@@ -6,13 +6,16 @@ The most significant events impacting the number of books I read are
 * The birth of my daughers in 2018/01 and 2019/08
 
 ### Statistics
-Total number of books read: 108  
-Books per month: 0.74 (2012/9 to 2024/10)
+Total number of books read: 109  
+Books per month: 0.74 (2012/9 to 2024/12)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
+*Fundamentals of Data Engineering*, Joe Reis,  Matt Housley  
+Finished: 2024.12.25
+
 *Caliban's war*, James S. A. Corey  
 Finished: 2024.10.03
 
