@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
 <book>
+	<author>Eric Lamarre, Kate Smaje, Rodney Zemmel</author>
+	<title>Rewired</title>
+	<tag>Nonfiction</tag>
+	<finnished>2025.04.25</finnished>
+</book>
+<book>
 	<author>Joe Reis,  Matt Housley</author>
 	<title>Fundamentals of Data Engineering</title>
 	<tag>Nonfiction</tag>
