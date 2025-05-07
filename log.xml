@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
 <book>
+	<author>Eric Jorgenson</author>
+	<title>The Almanack of Naval Ravikant</title>
+	<tag>Nonfiction</tag>
+	<finnished>2025.05.05</finnished>
+</book>
+<book>
 	<author>Eric Lamarre, Kate Smaje, Rodney Zemmel</author>
 	<title>Rewired</title>
 	<tag>Nonfiction</tag>

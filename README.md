@@ -6,13 +6,16 @@ The most significant events impacting the number of books I read are
 * The birth of my daughers in 2018/01 and 2019/08
 
 ### Statistics
-Total number of books read: 110  
-Books per month: 0.72 (2012/9 to 2025/4)
+Total number of books read: 111  
+Books per month: 0.73 (2012/9 to 2025/5)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
+*The Almanack of Naval Ravikant*, Eric Jorgenson  
+Finished: 2025.05.05
+
 *Rewired*, Eric Lamarre, Kate Smaje, Rodney Zemmel  
 Finished: 2025.04.25
 
