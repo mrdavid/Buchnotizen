@@ -1,18 +1,18 @@
 # Literature log
 
 I started this log on October 30th, 2012. I list all books I read.  
-The most significant events impacting the number of books I read are
-* Job changes in 2016/01 and 2019/03.
-* The birth of my daughers in 2018/01 and 2019/08
 
 ### Statistics
-Total number of books read: 111  
-Books per month: 0.73 (2012/9 to 2025/5)
+Total number of books read: 112  
+Books per month: 0.72 (2012/9 to 2025/7)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
+*Creatures of light and darkness*, Roger Zelazny  
+Finished: 2025.07.27
+
 *The Almanack of Naval Ravikant*, Eric Jorgenson  
 Finished: 2025.05.05
 
