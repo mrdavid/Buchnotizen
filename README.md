@@ -3,13 +3,16 @@
 I started this log on October 30th, 2012. I list all books I read.  
 
 ### Statistics
-Total number of books read: 112  
-Books per month: 0.72 (2012/9 to 2025/7)
+Total number of books read: 113  
+Books per month: 0.72 (2012/9 to 2025/8)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
+*You're the boss*, ~Sabina Nawaz  
+Finished: 2025.08.13
+
 *Creatures of light and darkness*, Roger Zelazny  
 Finished: 2025.07.27
 

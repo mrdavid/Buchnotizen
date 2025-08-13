@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
 <book>
+	<author>~Sabina Nawaz</author>
+	<title>You're the boss</title>
+	<tag>Nonfiction</tag>
+	<finnished>2025.08.13</finnished>
+</book>
+<book>
 	<author>Roger Zelazny</author>
 	<title>Creatures of light and darkness</title>
 	<tag>Fiction</tag>
