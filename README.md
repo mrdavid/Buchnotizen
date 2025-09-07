@@ -3,13 +3,16 @@
 I started this log on October 30th, 2012. I list all books I read.  
 
 ### Statistics
-Total number of books read: 114  
-Books per month: 0.73 (2012/9 to 2025/8)
+Total number of books read: 115  
+Books per month: 0.73 (2012/9 to 2025/9)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
+*Quantentheorie und Philosophie (Reclam)*, Werner Heisenberg  
+Finished: 2025.09.07
+
 *Der Sandmann*, E.T.A. Hoffmann  
 Finished: 2025.08.29
 
