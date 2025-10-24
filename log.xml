@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
 <book>
+  <author>L. David Marquet</author>
+	<title>Turn the ship around!</title>
+	<tag>Nonfiction</tag>
+	<finnished>2025.10.24</finnished>
+</book>
+<book>
 	<author>Werner Heisenberg</author>
 	<title>Quantentheorie und Philosophie (Reclam)</title>
 	<tag>Nonfiction</tag>
