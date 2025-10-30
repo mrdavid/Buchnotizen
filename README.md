@@ -3,13 +3,16 @@
 I started this log on October 30th, 2012. I list all books I read.  
 
 ### Statistics
-Total number of books read: 116  
-Books per month: 0.73 (2012/9 to 2025/10)
+Total number of books read: 117  
+Books per month: 0.74 (2012/9 to 2025/10)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
+*Horus rising*, Dan Abnett  
+Finished: 2025.10.30
+
 *Turn the ship around!*, L. David Marquet  
 Finished: 2025.10.24
 
