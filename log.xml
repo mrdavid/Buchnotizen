@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
 <book>
+  <author>Graham McNeill</author>
+	<title>False Gods (Horus Heresy)</title>
+	<tag>Fiction</tag>
+	<finnished>2025.11.28</finnished>
+</book>
+<book>
   <author>James Nestor</author>
 	<title>Breath</title>
 	<tag>Noniction</tag>
@@ -8,7 +14,7 @@
 </book>
 <book>
   <author>Dan Abnett</author>
-	<title>Horus rising</title>
+	<title>Horus rising (Horus Heresy)</title>
 	<tag>Fiction</tag>
 	<finnished>2025.10.30</finnished>
 </book>
