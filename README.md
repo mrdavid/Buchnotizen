@@ -3,13 +3,16 @@
 I started this log on October 30th, 2012. I list all books I read.  
 
 ### Statistics
-Total number of books read: 119  
-Books per month: 0.75 (2012/9 to 2025/11)
+Total number of books read: 120  
+Books per month: 0.75 (2012/9 to 2025/12)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
+*Galaxy in Flames (Horus Heresy)*, Ben Counter  
+Finished: 2025.12.30
+
 *False Gods (Horus Heresy)*, Graham McNeill  
 Finished: 2025.11.28
 

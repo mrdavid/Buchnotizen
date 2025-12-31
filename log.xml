@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
 <book>
+  <author>Ben Counter</author>
+	<title>Galaxy in Flames (Horus Heresy)</title>
+	<tag>Fiction</tag>
+	<finnished>2025.12.30</finnished>
+</book>
+<book>
   <author>Graham McNeill</author>
 	<title>False Gods (Horus Heresy)</title>
 	<tag>Fiction</tag>
