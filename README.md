@@ -3,13 +3,16 @@
 I started this log on October 30th, 2012. I list all books I read.  
 
 ### Statistics
-Total number of books read: 120  
-Books per month: 0.75 (2012/9 to 2025/12)
+Total number of books read: 121  
+Books per month: 0.75 (2012/9 to 2026/1)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
+*The flight of the Eisenstein (Horus Heresy)*, James Swallow  
+Finished: 2026.01.07
+
 *Galaxy in Flames (Horus Heresy)*, Ben Counter  
 Finished: 2025.12.30
 
