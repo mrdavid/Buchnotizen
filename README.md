@@ -3,13 +3,16 @@
 I started this log on October 30th, 2012. I list all books I read.  
 
 ### Statistics
-Total number of books read: 121  
-Books per month: 0.75 (2012/9 to 2026/1)
+Total number of books read: 122  
+Books per month: 0.76 (2012/9 to 2026/1)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
+*Fulgrim (Horus Heresy)*, Graham McNeill  
+Finished: 2026.01.26
+
 *The flight of the Eisenstein (Horus Heresy)*, James Swallow  
 Finished: 2026.01.07
 

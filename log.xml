@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
 <book>
+  <author>Graham McNeill</author>
+	<title>Fulgrim (Horus Heresy)</title>
+	<tag>Fiction</tag>
+	<finnished>2026.01.26</finnished>
+</book>
+<book>
   <author>James Swallow</author>
 	<title>The flight of the Eisenstein (Horus Heresy)</title>
 	<tag>Fiction</tag>
