@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
 <book>
+  <author>Aaron Dembski-Bowden</author>
+	<title>The First Heretic (Horus Heresy 14)</title>
+	<tag>Fiction</tag>
+	<finnished>2026.02.09</finnished>
+</book>
+<book>
   <author>Graham McNeill</author>
-	<title>Fulgrim (Horus Heresy)</title>
+	<title>Fulgrim (Horus Heresy 5)</title>
 	<tag>Fiction</tag>
 	<finnished>2026.01.26</finnished>
 </book>
 <book>
   <author>James Swallow</author>
-	<title>The flight of the Eisenstein (Horus Heresy)</title>
+	<title>The flight of the Eisenstein (Horus Heresy 4)</title>
 	<tag>Fiction</tag>
 	<finnished>2026.01.07</finnished>
 </book>
 <book>
   <author>Ben Counter</author>
-	<title>Galaxy in Flames (Horus Heresy)</title>
+	<title>Galaxy in Flames (Horus Heresy 3)</title>
 	<tag>Fiction</tag>
 	<finnished>2025.12.30</finnished>
 </book>
 <book>
   <author>Graham McNeill</author>
-	<title>False Gods (Horus Heresy)</title>
+	<title>False Gods (Horus Heresy 2)</title>
 	<tag>Fiction</tag>
 	<finnished>2025.11.28</finnished>
 </book>
@@ -32,7 +38,7 @@
 </book>
 <book>
   <author>Dan Abnett</author>
-	<title>Horus rising (Horus Heresy)</title>
+	<title>Horus rising (Horus Heresy 1)</title>
 	<tag>Fiction</tag>
 	<finnished>2025.10.30</finnished>
 </book>

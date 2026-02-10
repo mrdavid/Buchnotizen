@@ -3,29 +3,32 @@
 I started this log on October 30th, 2012. I list all books I read.  
 
 ### Statistics
-Total number of books read: 122  
-Books per month: 0.76 (2012/9 to 2026/1)
+Total number of books read: 123  
+Books per month: 0.76 (2012/9 to 2026/2)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
-*Fulgrim (Horus Heresy)*, Graham McNeill  
+*The First Heretic (Horus Heresy 14)*, Aaron Dembski-Bowden  
+Finished: 2026.02.09
+
+*Fulgrim (Horus Heresy 5)*, Graham McNeill  
 Finished: 2026.01.26
 
-*The flight of the Eisenstein (Horus Heresy)*, James Swallow  
+*The flight of the Eisenstein (Horus Heresy 4)*, James Swallow  
 Finished: 2026.01.07
 
-*Galaxy in Flames (Horus Heresy)*, Ben Counter  
+*Galaxy in Flames (Horus Heresy 3)*, Ben Counter  
 Finished: 2025.12.30
 
-*False Gods (Horus Heresy)*, Graham McNeill  
+*False Gods (Horus Heresy 2)*, Graham McNeill  
 Finished: 2025.11.28
 
 *Breath*, James Nestor  
 Finished: 2025.11.17
 
-*Horus rising (Horus Heresy)*, Dan Abnett  
+*Horus rising (Horus Heresy 1)*, Dan Abnett  
 Finished: 2025.10.30
 
 *Turn the ship around!*, L. David Marquet  
