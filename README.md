@@ -3,13 +3,16 @@
 I started this log on October 30th, 2012. I list all books I read.  
 
 ### Statistics
-Total number of books read: 124  
-Books per month: 0.77 (2012/9 to 2026/2)
+Total number of books read: 125  
+Books per month: 0.77 (2012/9 to 2026/3)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 
 ### List of books
+*Betrayer (Horus Heresy 24)*, Aaron Dembski-Bowden  
+Finished: 2026.03.02
+
 *Know No Fear (Horus Heresy 19)*, Dan Abnett  
 Finished: 2026.02.19
 

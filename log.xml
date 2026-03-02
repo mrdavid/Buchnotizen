@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
 <book>
+  <author>Aaron Dembski-Bowden</author>
+	<title>Betrayer (Horus Heresy 24)</title>
+	<tag>Fiction</tag>
+	<finnished>2026.03.02</finnished>
+</book>
+<book>
   <author>Dan Abnett</author>
 	<title>Know No Fear (Horus Heresy 19)</title>
 	<tag>Fiction</tag>
