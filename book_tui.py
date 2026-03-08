@@ -520,8 +520,8 @@ class BookListScreen(Screen):
 
     def _status_text(self) -> str:
         if self._jump_buffer:
-            return f"Jump to row: {self._jump_buffer}  [Enter] confirm  [Esc] cancel"
-        return "  [q] Quit    [n] New book    [e / Enter] Edit    [0-9] Jump to row"
+            return f"Jump to row: {self._jump_buffer}  [[Enter]] confirm  [[Esc]] cancel"
+        return "  [[q]] Quit    [[n]] New book    [[e]] / Enter Edit    [[0-9]] Jump to row"
 
     def on_mount(self) -> None:
         self.call_after_refresh(self._populate_table)
