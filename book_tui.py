@@ -4,20 +4,22 @@ book_tui.py — Terminal UI for browsing and editing log.xml
 Requires: pip install textual
 """
 
+import calendar as _cal
 import xml.etree.ElementTree as ET
+from datetime import date, timedelta
 from pathlib import Path
-from datetime import date
 
 from textual.app import App, ComposeResult
 from textual.binding import Binding
 from textual.events import Key
-from textual.screen import Screen
-from textual.widgets import DataTable, Input, Label, Button, Footer, Header, Static
+from textual.screen import ModalScreen, Screen
+from textual.widgets import DataTable, Input, Label, Button, Header, Static
 from textual.containers import Vertical, Horizontal, ScrollableContainer
 
 XML_PATH = Path(__file__).parent / "log.xml"
 
 FIELDS = ["author", "title", "finished", "tag", "started", "isbn", "notes", "review"]
+DATE_FIELDS = {"finished", "started"}
 
 
 # ---------------------------------------------------------------------------
@@ -49,9 +51,229 @@ def set_field(book: ET.Element, field: str, value: str) -> None:
             el = ET.SubElement(book, field)
         el.text = value
     else:
-        # Remove element if empty value provided
         if el is not None:
             book.remove(el)
+
+
+# ---------------------------------------------------------------------------
+# Date helpers
+# ---------------------------------------------------------------------------
+
+def parse_book_date(value: str) -> date | None:
+    """Parse YYYY.MM.DD → date, or None on failure."""
+    try:
+        parts = value.strip().split(".")
+        return date(int(parts[0]), int(parts[1]), int(parts[2]))
+    except Exception:
+        return None
+
+
+def format_book_date(d: date) -> str:
+    """Format date → YYYY.MM.DD."""
+    return d.strftime("%Y.%m.%d")
+
+
+# ---------------------------------------------------------------------------
+# CalendarModal
+# ---------------------------------------------------------------------------
+
+class CalendarModal(ModalScreen):
+    """
+    A modal month-calendar date picker.
+
+    Navigate: ←→ day, ↑↓ week, PgUp/PgDn month.
+    Confirm with Enter, cancel with Esc.
+    Dismisses with the selected date, or None on cancel.
+    """
+
+    BINDINGS = [
+        Binding("escape",   "cancel",      "Cancel",     show=False),
+        Binding("enter",    "confirm",     "Select",     show=False),
+        Binding("left",     "prev_day",    "Prev day",   show=False),
+        Binding("right",    "next_day",    "Next day",   show=False),
+        Binding("up",       "prev_week",   "Prev week",  show=False),
+        Binding("down",     "next_week",   "Next week",  show=False),
+        Binding("pageup",   "prev_month",  "Prev month", show=False),
+        Binding("pagedown", "next_month",  "Next month", show=False),
+    ]
+
+    DEFAULT_CSS = """
+    CalendarModal {
+        align: center middle;
+    }
+    #cal-container {
+        width: 28;
+        height: 18;
+        border: round $accent;
+        background: $surface;
+        padding: 1 2;
+    }
+    #cal-month {
+        height: 1;
+        text-align: center;
+        text-style: bold;
+        color: $accent;
+        margin-bottom: 1;
+    }
+    #cal-grid {
+        height: 8;
+        text-align: center;
+    }
+    #cal-help {
+        height: 2;
+        color: $text-muted;
+        text-align: center;
+        margin-top: 1;
+    }
+    """
+
+    def __init__(self, initial: date | None = None):
+        super().__init__()
+        self._selected = initial or date.today()
+
+    def compose(self) -> ComposeResult:
+        with Vertical(id="cal-container"):
+            yield Static("", id="cal-month")
+            yield Static("", id="cal-grid")
+            yield Static(
+                "←→ day  ↑↓ week  PgUp/Dn month\n"
+                "Enter confirm  Esc cancel",
+                id="cal-help",
+            )
+
+    def on_mount(self) -> None:
+        self._redraw()
+
+    def _redraw(self) -> None:
+        sel = self._selected
+        today = date.today()
+
+        self.query_one("#cal-month", Static).update(sel.strftime("%B %Y"))
+
+        # Build 7-column grid (Mon … Sun)
+        lines = ["Mo Tu We Th Fr Sa Su"]
+        first_weekday = sel.replace(day=1).weekday()   # 0 = Mon
+        num_days = _cal.monthrange(sel.year, sel.month)[1]
+
+        row: list[str] = ["  "] * first_weekday
+        for day in range(1, num_days + 1):
+            d = date(sel.year, sel.month, day)
+            cell = f"{day:2d}"
+            if d == sel:
+                cell = f"[bold reverse]{cell}[/bold reverse]"
+            elif d == today:
+                cell = f"[yellow]{cell}[/yellow]"
+            row.append(cell)
+            if len(row) == 7:
+                lines.append(" ".join(row))
+                row = []
+        if row:
+            row += ["  "] * (7 - len(row))
+            lines.append(" ".join(row))
+
+        self.query_one("#cal-grid", Static).update("\n".join(lines))
+
+    # -- navigation actions --------------------------------------------------
+
+    def action_prev_day(self) -> None:
+        self._selected -= timedelta(days=1)
+        self._redraw()
+
+    def action_next_day(self) -> None:
+        self._selected += timedelta(days=1)
+        self._redraw()
+
+    def action_prev_week(self) -> None:
+        self._selected -= timedelta(weeks=1)
+        self._redraw()
+
+    def action_next_week(self) -> None:
+        self._selected += timedelta(weeks=1)
+        self._redraw()
+
+    def action_prev_month(self) -> None:
+        sel = self._selected
+        new_year = sel.year - 1 if sel.month == 1 else sel.year
+        new_month = 12 if sel.month == 1 else sel.month - 1
+        max_day = _cal.monthrange(new_year, new_month)[1]
+        self._selected = date(new_year, new_month, min(sel.day, max_day))
+        self._redraw()
+
+    def action_next_month(self) -> None:
+        sel = self._selected
+        new_year = sel.year + 1 if sel.month == 12 else sel.year
+        new_month = 1 if sel.month == 12 else sel.month + 1
+        max_day = _cal.monthrange(new_year, new_month)[1]
+        self._selected = date(new_year, new_month, min(sel.day, max_day))
+        self._redraw()
+
+    def action_confirm(self) -> None:
+        self.dismiss(self._selected)
+
+    def action_cancel(self) -> None:
+        self.dismiss(None)
+
+
+# ---------------------------------------------------------------------------
+# DateField  (Input + calendar-picker button)
+# ---------------------------------------------------------------------------
+
+class DateField(Horizontal):
+    """
+    A labelled date input with an attached calendar picker button.
+
+    The inner Input uses the ID supplied as `input_id` so that BookForm's
+    get_values() can query it by #input_{field} just like plain Inputs.
+    Press Enter in the input or click 📅 to open the calendar modal.
+    """
+
+    DEFAULT_CSS = """
+    DateField {
+        height: auto;
+    }
+    DateField Button {
+        width: 7;
+        min-width: 7;
+        margin-left: 1;
+    }
+    """
+
+    def __init__(self, value: str, input_id: str):
+        super().__init__()
+        self._initial_value = value
+        self._input_id = input_id
+
+    def compose(self) -> ComposeResult:
+        yield Input(
+            value=self._initial_value,
+            id=self._input_id,
+            placeholder="YYYY.MM.DD  (F2 = calendar)",
+        )
+        yield Button("[Cal]", id=f"_cal_btn_{self._input_id}")
+
+    def on_button_pressed(self, event: Button.Pressed) -> None:
+        if event.button.id == f"_cal_btn_{self._input_id}":
+            self._open_picker()
+            event.stop()
+
+    def on_key(self, event: Key) -> None:
+        """Open calendar on F2 while focus is anywhere inside the DateField."""
+        if event.key == "f2":
+            self._open_picker()
+            event.stop()
+
+    def on_input_submitted(self, event: Input.Submitted) -> None:
+        """Open calendar when Enter is pressed inside the date input."""
+        self._open_picker()
+        event.stop()
+
+    def _open_picker(self) -> None:
+        current = self.query_one(f"#{self._input_id}", Input).value
+        self.app.push_screen(CalendarModal(parse_book_date(current)), self._on_picked)
+
+    def _on_picked(self, result: date | None) -> None:
+        if result is not None:
+            self.query_one(f"#{self._input_id}", Input).value = format_book_date(result)
 
 
 # ---------------------------------------------------------------------------
@@ -81,7 +303,17 @@ class BookForm(Vertical):
     def compose(self) -> ComposeResult:
         for field in FIELDS:
             yield Label(field.capitalize())
-            yield Input(value=self._values.get(field, ""), id=f"input_{field}", placeholder=field)
+            if field in DATE_FIELDS:
+                yield DateField(
+                    value=self._values.get(field, ""),
+                    input_id=f"input_{field}",
+                )
+            else:
+                yield Input(
+                    value=self._values.get(field, ""),
+                    id=f"input_{field}",
+                    placeholder=field,
+                )
 
     def get_values(self) -> dict[str, str]:
         return {
@@ -140,12 +372,11 @@ class EditBookScreen(Screen):
             with Horizontal(id="button-row"):
                 yield Button("Save (Ctrl+S)", variant="primary", id="btn-save")
                 yield Button("Discard (Esc)", id="btn-discard")
-        yield Footer()
 
     def on_button_pressed(self, event: Button.Pressed) -> None:
         if event.button.id == "btn-save":
             self.action_save()
-        else:
+        elif event.button.id == "btn-discard":
             self.action_discard()
 
     def action_save(self) -> None:
@@ -207,12 +438,11 @@ class NewBookScreen(Screen):
             with Horizontal(id="button-row"):
                 yield Button("Save (Ctrl+S)", variant="success", id="btn-save")
                 yield Button("Discard (Esc)", id="btn-discard")
-        yield Footer()
 
     def on_button_pressed(self, event: Button.Pressed) -> None:
         if event.button.id == "btn-save":
             self.action_save()
-        else:
+        elif event.button.id == "btn-discard":
             self.action_discard()
 
     def action_save(self) -> None:
@@ -226,7 +456,6 @@ class NewBookScreen(Screen):
                 el = ET.SubElement(new_book, field)
                 el.text = values[field].strip()
 
-        # Insert as first child
         root.insert(0, new_book)
         save_xml(tree)
         self.app.pop_screen()
