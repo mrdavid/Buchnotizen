@@ -12,7 +12,7 @@ from textual.app import App, ComposeResult
 from textual.binding import Binding
 from textual.events import Key
 from textual.screen import Screen
-from textual.widgets import DataTable, Input, Label, Button, Footer, Header
+from textual.widgets import DataTable, Input, Label, Button, Footer, Header, Static
 from textual.containers import Vertical, Horizontal, ScrollableContainer
 
 XML_PATH = Path(__file__).parent / "log.xml"
@@ -254,10 +254,15 @@ class BookListScreen(Screen):
     DataTable {
         height: 1fr;
     }
-    #jump-label {
+    #status-bar {
         height: 1;
         padding: 0 1;
-        color: $accent;
+        background: $panel;
+        color: $text-muted;
+        dock: bottom;
+    }
+    #status-bar.jumping {
+        color: $warning;
     }
     """
 
@@ -268,12 +273,15 @@ class BookListScreen(Screen):
     def compose(self) -> ComposeResult:
         yield Header()
         yield DataTable(id="book-table", zebra_stripes=True, cursor_type="row")
-        yield Label("", id="jump-label")
-        yield Footer()
+        yield Static(self._status_text(), id="status-bar")
+
+    def _status_text(self) -> str:
+        if self._jump_buffer:
+            return f"Jump to row: {self._jump_buffer}  [Enter] confirm  [Esc] cancel"
+        return "  [q] Quit    [n] New book    [e / Enter] Edit    [0-9] Jump to row"
 
     def on_mount(self) -> None:
-        self._populate_table()
-        self.query_one(DataTable).move_cursor(row=0)
+        self.call_after_refresh(self._populate_table)
 
     def on_key(self, event: Key) -> None:
         if event.character and event.character.isdigit():
@@ -290,10 +298,14 @@ class BookListScreen(Screen):
             self._update_jump_label()
 
     def _update_jump_label(self) -> None:
-        label = self.query_one("#jump-label", Label)
-        label.update(f"Jump to: {self._jump_buffer}" if self._jump_buffer else "")
+        bar = self.query_one("#status-bar", Static)
+        bar.update(self._status_text())
+        if self._jump_buffer:
+            bar.add_class("jumping")
+        else:
+            bar.remove_class("jumping")
 
-    def _populate_table(self) -> None:
+    def _populate_table(self, restore_row: int = 0) -> None:
         table = self.query_one(DataTable)
         table.clear(columns=True)
         table.add_columns("#", "Title", "Author", "Finished", "Tag")
@@ -306,14 +318,14 @@ class BookListScreen(Screen):
             tag = get_field(book, "tag")
             table.add_row(str(i), title, author, finished, tag)
 
+        if table.row_count > 0:
+            table.move_cursor(row=min(restore_row, table.row_count - 1))
+        table.refresh()
+
     def on_screen_resume(self) -> None:
         """Refresh table when returning from edit/new screens."""
         cursor_row = self.query_one(DataTable).cursor_row
-        self._populate_table()
-        # Restore cursor position
-        table = self.query_one(DataTable)
-        if table.row_count > 0:
-            table.move_cursor(row=min(cursor_row, table.row_count - 1))
+        self._populate_table(restore_row=cursor_row)
 
     def action_edit_book(self) -> None:
         table = self.query_one(DataTable)
