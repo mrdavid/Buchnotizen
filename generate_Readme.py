@@ -40,11 +40,11 @@ print("### List of books")
 books_list = []
 for atype in books:
     total_books += 1
-    books_list.append([atype.find('title').text, atype.find('author').text, atype.find('finnished').text])
+    books_list.append([atype.find('title').text, atype.find('author').text, atype.find('finished').text])
 
     print(("*"+atype.find('title').text+"*, "+atype.find('author').text+"  ")) #.encode('utf-8'))
     if atype.find('title') != None:
-        print("Finished: " + atype.find('finnished').text)
+        print("Finished: " + atype.find('finished').text)
     print("")
 
 # ---------------------------------------
