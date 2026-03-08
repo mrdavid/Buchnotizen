@@ -315,6 +315,20 @@ class BookForm(Vertical):
                     placeholder=field,
                 )
 
+    def on_key(self, event: Key) -> None:
+        if event.key not in ("up", "down"):
+            return
+        inputs = list(self.query(Input))
+        focused = self.app.focused
+        if focused not in inputs:
+            return
+        idx = inputs.index(focused)
+        if event.key == "up" and idx > 0:
+            inputs[idx - 1].focus()
+        elif event.key == "down" and idx < len(inputs) - 1:
+            inputs[idx + 1].focus()
+        event.stop()
+
     def get_values(self) -> dict[str, str]:
         return {
             field: self.query_one(f"#input_{field}", Input).value
