@@ -8,6 +8,7 @@ Books per month: 0.77 (2012/9 to 2026/3)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
+![Days between books (distribution)](book_gaps.png)
 
 ### List of books
 *Betrayer (Horus Heresy 24)*, Aaron Dembski-Bowden  

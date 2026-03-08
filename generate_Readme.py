@@ -33,6 +33,7 @@ def generate_readme(books, total_books, books_per_month, now):
     lines.append("")
     lines.append("![Books recorded by year](book_recorded.png)")
     lines.append("![Books read per month](book_read.png)")
+    lines.append("![Days between books (distribution)](book_gaps.png)")
     lines.append('')
     lines.append("### List of books")
 
@@ -94,3 +95,15 @@ fig.set_xlabel('Date')
 fig.set_ylabel('Number of books read')
 fig.set_title('Books read per month (5 month rolling average)')
 fig.get_figure().savefig('book_read.png')
+
+# gap between consecutive books (days between finish dates)
+dates_sorted = df['date_read'].sort_values()
+gaps = dates_sorted.diff().dropna().dt.days
+
+plt.figure(figsize=(780/my_dpi, 360/my_dpi), dpi=my_dpi)
+fig, ax = plt.subplots(figsize=(780/my_dpi, 360/my_dpi), dpi=my_dpi)
+ax.hist(gaps, bins=30, weights=[100.0 / len(gaps)] * len(gaps), edgecolor='white', linewidth=0.5)
+ax.set_xlabel('Days between finishing books')
+ax.set_ylabel('Percentage (%)')
+ax.set_title('Distribution of gaps between books')
+fig.savefig('book_gaps.png')
