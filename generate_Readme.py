@@ -60,7 +60,7 @@ df.date_read = pd.to_datetime(df.date_read, format="%Y.%m.%d")
 # We want to summarize by date - make the date the index
 df.index = df.date_read
 # summarize by year
-df2 = df.groupby(pd.Grouper(freq='A')).count()['title']
+df2 = df.groupby(pd.Grouper(freq='YE')).count()['title']
 
 df2.year = pd.Series(df2.index).apply(lambda x: x.year)
 df2.index = df2.year
@@ -77,14 +77,14 @@ fig.set_title('Books recorded')
 fig.get_figure().savefig('book_recorded.png')
 
 # summarize by month
-df3 = df.groupby(pd.Grouper(freq='M')).count()['title']
+df3 = df.groupby(pd.Grouper(freq='ME')).count()['title']
 
 # extend to current month to also include recent periods without activity
 start = max(df3.index)
 end = pd.Timestamp.today() + pd.tseries.offsets.MonthEnd()
 
 # update index including potentially empty months
-df3a = df3.reindex(df3.index.union(pd.date_range(start=start, end=end,freq="M"))).fillna(0)
+df3a = df3.reindex(df3.index.union(pd.date_range(start=start, end=end,freq="ME"))).fillna(0)
 
 # plot
 plt.figure(figsize=(780/my_dpi, 360/my_dpi), dpi=my_dpi)
