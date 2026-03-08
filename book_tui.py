@@ -317,18 +317,29 @@ class BookForm(Vertical):
                     placeholder=field,
                 )
 
+    def on_mount(self) -> None:
+        inputs = list(self.query(Input))
+        if inputs:
+            inputs[0].focus()
+
     def on_key(self, event: Key) -> None:
         if event.key not in ("up", "down"):
             return
         inputs = list(self.query(Input))
         focused = self.app.focused
         if focused not in inputs:
+            if event.key == "down" and inputs:
+                inputs[0].focus()
+                inputs[0].scroll_visible()
+                event.stop()
             return
         idx = inputs.index(focused)
         if event.key == "up" and idx > 0:
             inputs[idx - 1].focus()
+            inputs[idx - 1].scroll_visible()
         elif event.key == "down" and idx < len(inputs) - 1:
             inputs[idx + 1].focus()
+            inputs[idx + 1].scroll_visible()
         event.stop()
 
     def get_values(self) -> dict[str, str]:
@@ -578,6 +589,9 @@ class BookListScreen(Screen):
         """Refresh table when returning from edit/new screens."""
         cursor_row = self.query_one(DataTable).cursor_row
         self._populate_table(restore_row=cursor_row)
+
+    def on_data_table_row_selected(self, event: DataTable.RowSelected) -> None:
+        self.action_edit_book()
 
     def action_edit_book(self) -> None:
         table = self.query_one(DataTable)
