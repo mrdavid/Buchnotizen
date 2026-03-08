@@ -14,43 +14,46 @@ rcParams.update({'figure.autolayout': True})
 
 now = datetime.datetime.now()
 
-print("# Literature log")
-print("")
-print("I started this log on October 30th, 2012. I list all books I read.  ")
-print("")
-
-total_books = 0
 # open and parse XML database
 e = xml.etree.ElementTree.parse('log.xml').getroot()
 books = e.findall('book')
 total_books = len(books)
-
-# Print general statistics
-print("### Statistics")
 books_per_month = (total_books/( (now.year - 2013.0)*12.0 + 4.0 + now.month ))
-print("Total number of books read: " + str(total_books) + "  ")
-print("Books per month: " + str(round(books_per_month,2)) + " (2012/9 to "+str(now.year)+"/"+str(now.month)+")")
-print("")
-print("![Books recorded by year](book_recorded.png)")
-print("![Books read per month](book_read.png)")
-print('')
-print("### List of books")
 
-# List out all books with author and date read
-books_list = []
-for atype in books:
-    total_books += 1
-    books_list.append([atype.find('title').text, atype.find('author').text, atype.find('finished').text])
 
-    print(("*"+atype.find('title').text+"*, "+atype.find('author').text+"  ")) #.encode('utf-8'))
-    if atype.find('title') != None:
-        print("Finished: " + atype.find('finished').text)
-    print("")
+def generate_readme(books, total_books, books_per_month, now):
+    lines = []
+    lines.append("# Literature log")
+    lines.append("")
+    lines.append("I started this log on October 30th, 2012. I list all books I read.  ")
+    lines.append("")
+    lines.append("### Statistics")
+    lines.append("Total number of books read: " + str(total_books) + "  ")
+    lines.append("Books per month: " + str(round(books_per_month,2)) + " (2012/9 to "+str(now.year)+"/"+str(now.month)+")")
+    lines.append("")
+    lines.append("![Books recorded by year](book_recorded.png)")
+    lines.append("![Books read per month](book_read.png)")
+    lines.append('')
+    lines.append("### List of books")
+
+    for atype in books:
+        lines.append("*"+atype.find('title').text+"*, "+atype.find('author').text+"  ")
+        if atype.find('title') is not None:
+            lines.append("Finished: " + atype.find('finished').text)
+        lines.append("")
+
+    return "\n".join(lines) + "\n"
+
+
+output = generate_readme(books, total_books, books_per_month, now)
+with open('README.md', 'w', encoding='utf-8') as f:
+    f.write(output)
 
 # ---------------------------------------
 # Update graphs
 # ---------------------------------------
 
+books_list = [[b.find('title').text, b.find('author').text, b.find('finished').text] for b in books]
 df = pd.DataFrame(books_list, columns=['title', 'author', 'date_read'])
 df.date_read = pd.to_datetime(df.date_read, format="%Y.%m.%d")
 
