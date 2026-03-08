@@ -4,7 +4,9 @@ book_tui.py — Terminal UI for browsing and editing log.xml
 Requires: pip install textual
 """
 
+import asyncio
 import calendar as _cal
+import sys
 import xml.etree.ElementTree as ET
 from datetime import date, timedelta
 from pathlib import Path
@@ -488,6 +490,7 @@ class BookListScreen(Screen):
         Binding("n", "new_book", "New book"),
         Binding("e", "edit_book", "Edit"),
         Binding("enter", "edit_book", "Edit", show=False),
+        Binding("r", "regen_readme", "Regen README"),
     ]
 
     DEFAULT_CSS = """
@@ -507,6 +510,12 @@ class BookListScreen(Screen):
     #status-bar.jumping {
         color: $warning;
     }
+    #status-bar.regen-ok {
+        color: $success;
+    }
+    #status-bar.regen-error {
+        color: $error;
+    }
     """
 
     def __init__(self):
@@ -521,7 +530,7 @@ class BookListScreen(Screen):
     def _status_text(self) -> str:
         if self._jump_buffer:
             return f"Jump to row: {self._jump_buffer}  [[Enter]] confirm  [[Esc]] cancel"
-        return "  [[q]] Quit    [[n]] New book    [[e]] / Enter Edit    [[0-9]] Jump to row"
+        return "  [[q]] Quit    [[n]] New book    [[e]] / Enter Edit    [[r]] Regen README    [[0-9]] Jump to row"
 
     def on_mount(self) -> None:
         self.call_after_refresh(self._populate_table)
@@ -579,6 +588,32 @@ class BookListScreen(Screen):
 
     def action_new_book(self) -> None:
         self.app.push_screen(NewBookScreen())
+
+    async def action_regen_readme(self) -> None:
+        bar = self.query_one("#status-bar", Static)
+        bar.remove_class("regen-ok", "regen-error")
+        bar.update("Regenerating README…")
+        script = XML_PATH.parent / "generate_Readme.py"
+        proc = await asyncio.create_subprocess_exec(
+            sys.executable, str(script),
+            stdout=asyncio.subprocess.DEVNULL,
+            stderr=asyncio.subprocess.PIPE,
+            cwd=str(XML_PATH.parent),
+        )
+        _, stderr = await proc.communicate()
+        if proc.returncode == 0:
+            bar.add_class("regen-ok")
+            bar.update("README regenerated successfully.")
+        else:
+            bar.add_class("regen-error")
+            msg = stderr.decode().strip().splitlines()[-1] if stderr else "unknown error"
+            bar.update(f"Regen failed: {msg}")
+        self.set_timer(3, self._reset_status_bar)
+
+    def _reset_status_bar(self) -> None:
+        bar = self.query_one("#status-bar", Static)
+        bar.remove_class("regen-ok", "regen-error")
+        bar.update(self._status_text())
 
     def action_quit(self) -> None:
         self.app.exit()
