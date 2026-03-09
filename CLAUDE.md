@@ -40,6 +40,21 @@ The Python script:
 - `book_read.png` — 5-month rolling average of books read per month
 - `book_gaps.png` — normalized histogram (%) of days between consecutive finished books
 
+## Open Library API (`openlibrary.py`)
+
+Shared module for looking up book metadata (ISBN, page count, Open Library link) via the Open Library Search API. Used by both `book_tui.py` and `backfill.py`.
+
+## Backfill Script (`backfill.py`)
+
+Batch-fills missing metadata for all books in `log.xml`. Designed as the central place to add future backfill steps.
+
+```bash
+python backfill.py            # backfill and save
+python backfill.py --dry-run  # preview changes without saving
+```
+
+Currently backfills: `isbn`, `pages`, `openlibrary` (via Open Library API).
+
 ## Book TUI (`book_tui.py`)
 
 Terminal UI for browsing and editing `log.xml`, built with [Textual](https://textual.textualize.io/).

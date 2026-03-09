@@ -18,6 +18,8 @@ from textual.screen import ModalScreen, Screen
 from textual.widgets import DataTable, Input, Label, Button, Header, Static
 from textual.containers import Vertical, Horizontal, ScrollableContainer
 
+from openlibrary import fetch_book_data
+
 XML_PATH = Path(__file__).parent / "log.xml"
 
 FIELDS = ["author", "title", "finished", "tag", "started", "isbn", "pages", "openlibrary", "notes", "review"]
@@ -43,51 +45,6 @@ def save_xml(tree: ET.ElementTree) -> None:
 def get_field(book: ET.Element, field: str) -> str:
     el = book.find(field)
     return el.text or "" if el is not None else ""
-
-
-def fetch_book_data(title: str, author: str) -> dict[str, str]:
-    """Look up ISBN, page count, and Open Library link via Search API."""
-    from difflib import SequenceMatcher
-    from urllib.request import urlopen
-    from urllib.parse import urlencode
-    import json as _json
-
-    params = urlencode({
-        "title": title, "author": author,
-        "fields": "title,key,isbn,number_of_pages_median", "limit": "5",
-    })
-    url = f"https://openlibrary.org/search.json?{params}"
-    try:
-        with urlopen(url, timeout=5) as resp:
-            data = _json.loads(resp.read())
-    except Exception:
-        return {}
-    docs = data.get("docs", [])
-    if not docs:
-        return {}
-    # Pick the doc whose title best matches the searched title
-    title_lower = title.lower()
-    doc = max(docs, key=lambda d: SequenceMatcher(
-        None, title_lower, d.get("title", "").lower()
-    ).ratio())
-    result = {}
-    # ISBN: prefer ISBN-13
-    isbns = doc.get("isbn", [])
-    for isbn in isbns:
-        if len(isbn) == 13 and isbn.startswith(("978", "979")):
-            result["isbn"] = isbn
-            break
-    if "isbn" not in result and isbns:
-        result["isbn"] = isbns[0]
-    # Pages
-    pages = doc.get("number_of_pages_median")
-    if pages:
-        result["pages"] = str(pages)
-    # Open Library link
-    key = doc.get("key")
-    if key:
-        result["openlibrary"] = f"https://openlibrary.org{key}"
-    return result
 
 
 def set_field(book: ET.Element, field: str, value: str) -> None:
