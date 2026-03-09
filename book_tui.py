@@ -20,7 +20,7 @@ from textual.containers import Vertical, Horizontal, ScrollableContainer
 
 XML_PATH = Path(__file__).parent / "log.xml"
 
-FIELDS = ["author", "title", "finished", "tag", "started", "isbn", "notes", "review"]
+FIELDS = ["author", "title", "finished", "tag", "started", "isbn", "pages", "notes", "review"]
 DATE_FIELDS = {"finished", "started"}
 
 
@@ -43,6 +43,42 @@ def save_xml(tree: ET.ElementTree) -> None:
 def get_field(book: ET.Element, field: str) -> str:
     el = book.find(field)
     return el.text or "" if el is not None else ""
+
+
+def fetch_book_data(title: str, author: str) -> dict[str, str]:
+    """Look up ISBN and page count via Open Library Search API."""
+    from urllib.request import urlopen
+    from urllib.parse import urlencode
+    import json as _json
+
+    params = urlencode({
+        "title": title, "author": author,
+        "fields": "isbn,number_of_pages_median", "limit": "1",
+    })
+    url = f"https://openlibrary.org/search.json?{params}"
+    try:
+        with urlopen(url, timeout=5) as resp:
+            data = _json.loads(resp.read())
+    except Exception:
+        return {}
+    docs = data.get("docs", [])
+    if not docs:
+        return {}
+    doc = docs[0]
+    result = {}
+    # ISBN: prefer ISBN-13
+    isbns = doc.get("isbn", [])
+    for isbn in isbns:
+        if len(isbn) == 13 and isbn.startswith(("978", "979")):
+            result["isbn"] = isbn
+            break
+    if "isbn" not in result and isbns:
+        result["isbn"] = isbns[0]
+    # Pages
+    pages = doc.get("number_of_pages_median")
+    if pages:
+        result["pages"] = str(pages)
+    return result
 
 
 def set_field(book: ET.Element, field: str, value: str) -> None:
@@ -279,6 +315,78 @@ class DateField(Horizontal):
 
 
 # ---------------------------------------------------------------------------
+# ISBNField  (Input + auto-fill button)
+# ---------------------------------------------------------------------------
+
+class ISBNField(Horizontal):
+    """
+    An ISBN input with a button that auto-fills ISBN and pages
+    from Open Library using the title and author already in the form.
+    """
+
+    DEFAULT_CSS = """
+    ISBNField {
+        height: auto;
+    }
+    ISBNField Button {
+        width: 7;
+        min-width: 7;
+        margin-left: 1;
+    }
+    """
+
+    def __init__(self, value: str, input_id: str):
+        super().__init__()
+        self._initial_value = value
+        self._input_id = input_id
+
+    def compose(self) -> ComposeResult:
+        yield Input(
+            value=self._initial_value,
+            id=self._input_id,
+            placeholder="ISBN  (Ctrl+L = auto-fill)",
+        )
+        yield Button("[Auto]", id="_auto_isbn_btn")
+
+    def on_button_pressed(self, event: Button.Pressed) -> None:
+        if event.button.id == "_auto_isbn_btn":
+            self.do_autofill()
+            event.stop()
+
+    def do_autofill(self) -> None:
+        """Trigger auto-fill from title/author fields in the parent BookForm."""
+        form = self.screen.query_one(BookForm)
+        title = form.query_one("#input_title", Input).value.strip()
+        author = form.query_one("#input_author", Input).value.strip()
+        if not title and not author:
+            self.app.notify("Enter title and/or author first", severity="warning")
+            return
+        self.app.notify("Looking up book…")
+        self.run_worker(self._fetch(form, title, author), exclusive=True)
+
+    async def _fetch(self, form: "BookForm", title: str, author: str) -> None:
+        import asyncio
+        loop = asyncio.get_event_loop()
+        data = await loop.run_in_executor(None, fetch_book_data, title, author)
+        if not data:
+            self.app.notify("No results found", severity="warning")
+            return
+        if "isbn" in data:
+            self.query_one(f"#{self._input_id}", Input).value = data["isbn"]
+        if "pages" in data:
+            try:
+                form.query_one("#input_pages", Input).value = data["pages"]
+            except Exception:
+                pass
+        parts = []
+        if "isbn" in data:
+            parts.append(f"ISBN: {data['isbn']}")
+        if "pages" in data:
+            parts.append(f"Pages: {data['pages']}")
+        self.app.notify("Found: " + ", ".join(parts))
+
+
+# ---------------------------------------------------------------------------
 # Book form (shared by Edit and New screens)
 # ---------------------------------------------------------------------------
 
@@ -307,6 +415,11 @@ class BookForm(Vertical):
             yield Label(field.capitalize())
             if field in DATE_FIELDS:
                 yield DateField(
+                    value=self._values.get(field, ""),
+                    input_id=f"input_{field}",
+                )
+            elif field == "isbn":
+                yield ISBNField(
                     value=self._values.get(field, ""),
                     input_id=f"input_{field}",
                 )
@@ -356,6 +469,7 @@ class BookForm(Vertical):
 class EditBookScreen(Screen):
     BINDINGS = [
         Binding("ctrl+s", "save", "Save"),
+        Binding("ctrl+l", "autofill_isbn", "Auto-fill ISBN"),
         Binding("escape", "discard", "Discard"),
     ]
 
@@ -406,6 +520,10 @@ class EditBookScreen(Screen):
         elif event.button.id == "btn-discard":
             self.action_discard()
 
+    def action_autofill_isbn(self) -> None:
+        isbn_field = self.query_one(ISBNField)
+        isbn_field.do_autofill()
+
     def action_save(self) -> None:
         form = self.query_one(BookForm)
         values = form.get_values()
@@ -427,6 +545,7 @@ class EditBookScreen(Screen):
 class NewBookScreen(Screen):
     BINDINGS = [
         Binding("ctrl+s", "save", "Save"),
+        Binding("ctrl+l", "autofill_isbn", "Auto-fill ISBN"),
         Binding("escape", "discard", "Discard"),
     ]
 
@@ -471,6 +590,10 @@ class NewBookScreen(Screen):
             self.action_save()
         elif event.button.id == "btn-discard":
             self.action_discard()
+
+    def action_autofill_isbn(self) -> None:
+        isbn_field = self.query_one(ISBNField)
+        isbn_field.do_autofill()
 
     def action_save(self) -> None:
         form = self.query_one(BookForm)
@@ -552,7 +675,7 @@ class BookListScreen(Screen):
             self._update_jump_label()
             event.prevent_default()
         elif self._jump_buffer:
-            event.prevent_default()
+            event.stop()
             if event.key == "enter":
                 n = int(self._jump_buffer)
                 table = self.query_one(DataTable)
@@ -571,15 +694,15 @@ class BookListScreen(Screen):
     def _populate_table(self, restore_row: int = 0) -> None:
         table = self.query_one(DataTable)
         table.clear(columns=True)
-        table.add_columns("#", "Title", "Author", "Finished", "Tag")
+        table.add_columns("#", "Title", "Author", "Finished", "ISBN")
 
         _, _, books = load_xml()
         for i, book in enumerate(books, 1):
             title = get_field(book, "title")
             author = get_field(book, "author")
             finished = get_field(book, "finished")
-            tag = get_field(book, "tag")
-            table.add_row(str(i), title, author, finished, tag)
+            isbn = get_field(book, "isbn")
+            table.add_row(str(i), title, author, finished, isbn)
 
         if table.row_count > 0:
             table.move_cursor(row=min(restore_row, table.row_count - 1))

@@ -20,7 +20,7 @@ Dependencies are listed in `requirements.txt` (`pandas`, `matplotlib`, `textual`
 
 All book data lives in `log.xml`. Each `<book>` entry supports these fields:
 - **Required:** `<author>`, `<title>`, `<finished>` (date format: `YYYY.MM.DD`), `<tag>`
-- **Optional:** `<started>`, `<bought>`, `<isbn>`, `<notes>`, `<amazon>`, `<review>`
+- **Optional:** `<started>`, `<bought>`, `<isbn>`, `<pages>`, `<notes>`, `<amazon>`, `<review>`
 
 The `<tag>` field categorizes books (Fiction, Nonfiction, Business, Physics, etc.). Some books have a linked notes file in `Notizen/`.
 
@@ -60,6 +60,7 @@ python book_tui.py
 | Key | Action |
 |-----|--------|
 | `Ctrl+S` | Save |
+| `Ctrl+L` | Auto-fill ISBN and pages from Open Library |
 | `Escape` | Discard |
 | `Up` / `Down` | Move between fields |
 | `F2` (date fields) | Open date picker |
