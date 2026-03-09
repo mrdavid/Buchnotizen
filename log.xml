@@ -356,6 +356,8 @@
     <title>The lion tracker's guide to life</title>
     <tag>Nonfiction</tag>
     <finished>2022.05.03</finished>
+    <isbn>9780358099772</isbn>
+    <pages>135</pages>
   </book>
   <book>
     <author>Bessel van der Kolk</author>
@@ -836,6 +838,8 @@
     <tag>Fiction</tag>
     <started>2014.01.04</started>
     <finished>2014.01.17</finished>
+    <pages>82</pages>
+    <openlibrary>https://openlibrary.org/works/OL11541077W/</openlibrary>
   </book>
   <book>
     <author>Jacques Hadamard</author>
@@ -979,6 +983,8 @@
     <title>Das f&amp;uuml;nfte Buch</title>
     <finished>2013.06.18</finished>
     <tag>Fiction</tag>
+    <isbn>9783518422427</isbn>
+    <pages>564</pages>
   </book>
   <book>
     <author>Ken Schwaber, Mike Beedle</author>
