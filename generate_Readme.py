@@ -38,7 +38,11 @@ def generate_readme(books, total_books, books_per_month, now):
     lines.append("### List of books")
 
     for atype in books:
-        lines.append("*"+atype.find('title').text+"*, "+atype.find('author').text+"  ")
+        title_text = atype.find('title').text
+        ol = atype.find('openlibrary')
+        if ol is not None and ol.text:
+            title_text = f"[{title_text}]({ol.text})"
+        lines.append(f"*{title_text}*, {atype.find('author').text}  ")
         if atype.find('title') is not None:
             lines.append("Finished: " + atype.find('finished').text)
         lines.append("")
