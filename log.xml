@@ -77,6 +77,9 @@
     <title>You're the boss</title>
     <tag>Nonfiction</tag>
     <finished>2025.08.13</finished>
+    <isbn>9781668023181</isbn>
+    <pages>272</pages>
+    <openlibrary>https://openlibrary.org/works/OL42426692W</openlibrary>
   </book>
   <book>
     <author>Roger Zelazny</author>
@@ -125,54 +128,81 @@
     <title>A fire upon the deep</title>
     <tag>Fiction</tag>
     <finished>2024.08.18</finished>
+    <isbn>9782221125779</isbn>
+    <pages>605</pages>
+    <openlibrary>https://openlibrary.org/works/OL1975714W</openlibrary>
   </book>
   <book>
     <author>William Gibson</author>
     <title>Neuromancer</title>
     <tag>Fiction</tag>
     <finished>2024.07.20</finished>
+    <isbn>9788758804118</isbn>
+    <pages>317</pages>
+    <openlibrary>https://openlibrary.org/works/OL27258W</openlibrary>
   </book>
   <book>
     <author>Ursula K. Le Guin</author>
     <title>The left hand of darkness</title>
     <tag>Fiction</tag>
     <finished>2024.06.16</finished>
+    <isbn>9780356507460</isbn>
+    <pages>304</pages>
+    <openlibrary>https://openlibrary.org/works/OL59800W</openlibrary>
   </book>
   <book>
     <author>Dan Simmons</author>
     <title>The rise of Endymion</title>
     <tag>Fiction</tag>
     <finished>2024.04.29</finished>
+    <isbn>9788440689306</isbn>
+    <pages>600</pages>
+    <openlibrary>https://openlibrary.org/works/OL1963248W</openlibrary>
   </book>
   <book>
     <author>Dan Simmons</author>
     <title>Endymion</title>
     <tag>Fiction</tag>
     <finished>2024.03.27</finished>
+    <isbn>9782221089569</isbn>
+    <pages>588</pages>
+    <openlibrary>https://openlibrary.org/works/OL1963279W</openlibrary>
   </book>
   <book>
     <author>Dan Simmons</author>
     <title>The Fall of Hyperion</title>
     <tag>Fiction</tag>
     <finished>2024.02.23</finished>
+    <isbn>9780385267472</isbn>
+    <pages>560</pages>
+    <openlibrary>https://openlibrary.org/works/OL1963251W</openlibrary>
   </book>
   <book>
     <author>Dan Simmons</author>
     <title>Hyperion</title>
     <tag>Fiction</tag>
     <finished>2024.02.07</finished>
+    <isbn>9780575081147</isbn>
+    <pages>481</pages>
+    <openlibrary>https://openlibrary.org/works/OL1963268W</openlibrary>
   </book>
   <book>
     <author>J.B. Mackinnon</author>
     <title>The day the world stops shopping</title>
     <tag>Nonfiction</tag>
     <finished>2024.01.25</finished>
+    <isbn>9781847925473</isbn>
+    <pages>360</pages>
+    <openlibrary>https://openlibrary.org/works/OL24205357W</openlibrary>
   </book>
   <book>
     <author>Neal Stephenson</author>
     <title>Snow Crash</title>
     <tag>Fiction</tag>
     <finished>2023.11.13</finished>
+    <isbn>9781299064027</isbn>
+    <pages>460</pages>
+    <openlibrary>https://openlibrary.org/works/OL38501W</openlibrary>
   </book>
   <book>
     <author>Frank Herbert</author>
@@ -180,30 +210,45 @@
     <title>Chapterhouse: Dune</title>
     <tag>Fiction</tag>
     <finished>2023.06.27</finished>
+    <isbn>9780808599623</isbn>
+    <pages>482</pages>
+    <openlibrary>https://openlibrary.org/works/OL893508W</openlibrary>
   </book>
   <book>
     <author>Frank Herbert</author>
     <title>Heretics of Dune</title>
     <tag>Fiction</tag>
     <finished>2023.06.10</finished>
+    <isbn>9780425087329</isbn>
+    <pages>510</pages>
+    <openlibrary>https://openlibrary.org/works/OL893502W</openlibrary>
   </book>
   <book>
     <author>Cal Newport</author>
     <title>Digital Minimalism</title>
     <tag>Nonfiction</tag>
     <finished>2023.05.19</finished>
+    <isbn>9780525536543</isbn>
+    <pages>295</pages>
+    <openlibrary>https://openlibrary.org/works/OL19541830W</openlibrary>
   </book>
   <book>
     <author>Frank Herbert</author>
     <title>God emperor of Dune</title>
     <tag>Fiction</tag>
     <finished>2023.05.05</finished>
+    <isbn>9788576572626</isbn>
+    <pages>464</pages>
+    <openlibrary>https://openlibrary.org/works/OL893515W</openlibrary>
   </book>
   <book>
     <author>Frank Herbert</author>
     <title>Children of Dune</title>
     <tag>Fiction</tag>
     <finished>2023.04.15</finished>
+    <isbn>9781440630514</isbn>
+    <pages>472</pages>
+    <openlibrary>https://openlibrary.org/works/OL893516W</openlibrary>
   </book>
   <book>
     <author>Frank Herbert</author>
@@ -222,6 +267,9 @@
     <title>Die Brüder Löwenherz</title>
     <tag>Fiction</tag>
     <finished>2023.01.21</finished>
+    <isbn>9783789129353</isbn>
+    <pages>225</pages>
+    <openlibrary>https://openlibrary.org/works/OL29884822W</openlibrary>
   </book>
   <book>
     <author>Neil Gaiman, Terry Pratchett</author>
@@ -270,6 +318,9 @@
     <title>Radical Acceptance</title>
     <tag>Nonfiction</tag>
     <finished>2021.07.31</finished>
+    <isbn>9780553380996</isbn>
+    <pages>333</pages>
+    <openlibrary>https://openlibrary.org/works/OL15844781W</openlibrary>
   </book>
   <book>
     <author>Seneca</author>

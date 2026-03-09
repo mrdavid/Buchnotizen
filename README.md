@@ -47,7 +47,7 @@ Finished: 2025.09.07
 *Der Sandmann*, E.T.A. Hoffmann  
 Finished: 2025.08.29
 
-*You're the boss*, Sabina Nawaz  
+*[You're the boss](https://openlibrary.org/works/OL42426692W)*, Sabina Nawaz  
 Finished: 2025.08.13
 
 *Creatures of light and darkness*, Roger Zelazny  
@@ -71,46 +71,46 @@ Finished: 2024.09.14
 *Cracking the PM interview*, Gayle McDowell, Jackie Bavaro  
 Finished: 2024.08.25
 
-*A fire upon the deep*, Vernor Vinge  
+*[A fire upon the deep](https://openlibrary.org/works/OL1975714W)*, Vernor Vinge  
 Finished: 2024.08.18
 
-*Neuromancer*, William Gibson  
+*[Neuromancer](https://openlibrary.org/works/OL27258W)*, William Gibson  
 Finished: 2024.07.20
 
-*The left hand of darkness*, Ursula K. Le Guin  
+*[The left hand of darkness](https://openlibrary.org/works/OL59800W)*, Ursula K. Le Guin  
 Finished: 2024.06.16
 
-*The rise of Endymion*, Dan Simmons  
+*[The rise of Endymion](https://openlibrary.org/works/OL1963248W)*, Dan Simmons  
 Finished: 2024.04.29
 
-*Endymion*, Dan Simmons  
+*[Endymion](https://openlibrary.org/works/OL1963279W)*, Dan Simmons  
 Finished: 2024.03.27
 
-*The Fall of Hyperion*, Dan Simmons  
+*[The Fall of Hyperion](https://openlibrary.org/works/OL1963251W)*, Dan Simmons  
 Finished: 2024.02.23
 
-*Hyperion*, Dan Simmons  
+*[Hyperion](https://openlibrary.org/works/OL1963268W)*, Dan Simmons  
 Finished: 2024.02.07
 
-*The day the world stops shopping*, J.B. Mackinnon  
+*[The day the world stops shopping](https://openlibrary.org/works/OL24205357W)*, J.B. Mackinnon  
 Finished: 2024.01.25
 
-*Snow Crash*, Neal Stephenson  
+*[Snow Crash](https://openlibrary.org/works/OL38501W)*, Neal Stephenson  
 Finished: 2023.11.13
 
-*Dune: Chapterhouse*, Frank Herbert  
+*[Dune: Chapterhouse](https://openlibrary.org/works/OL893508W)*, Frank Herbert  
 Finished: 2023.06.27
 
-*Heretics of Dune*, Frank Herbert  
+*[Heretics of Dune](https://openlibrary.org/works/OL893502W)*, Frank Herbert  
 Finished: 2023.06.10
 
-*Digital Minimalism*, Cal Newport  
+*[Digital Minimalism](https://openlibrary.org/works/OL19541830W)*, Cal Newport  
 Finished: 2023.05.19
 
-*God emperor of Dune*, Frank Herbert  
+*[God emperor of Dune](https://openlibrary.org/works/OL893515W)*, Frank Herbert  
 Finished: 2023.05.05
 
-*Children of Dune*, Frank Herbert  
+*[Children of Dune](https://openlibrary.org/works/OL893516W)*, Frank Herbert  
 Finished: 2023.04.15
 
 *Dune: Messiah*, Frank Herbert  
@@ -119,7 +119,7 @@ Finished: 2023.03.16
 *Deep Work*, Cal Newport  
 Finished: 2023.02.17
 
-*Die Brüder Löwenherz*, Astrid Lindgren  
+*[Die Brüder Löwenherz](https://openlibrary.org/works/OL29884822W)*, Astrid Lindgren  
 Finished: 2023.01.21
 
 *Good Omens*, Neil Gaiman, Terry Pratchett  
@@ -143,7 +143,7 @@ Finished: 2021.09.26
 *Trotzdem Ja zum Leben sagen*, Viktor Frankl  
 Finished: 2021.08.17
 
-*Radical Acceptance*, Tara Brach  
+*[Radical Acceptance](https://openlibrary.org/works/OL15844781W)*, Tara Brach  
 Finished: 2021.07.31
 
 *Von der Kürze des Lebens*, Seneca  
