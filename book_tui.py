@@ -20,7 +20,7 @@ from textual.containers import Vertical, Horizontal, ScrollableContainer
 
 XML_PATH = Path(__file__).parent / "log.xml"
 
-FIELDS = ["author", "title", "finished", "tag", "started", "isbn", "pages", "notes", "review"]
+FIELDS = ["author", "title", "finished", "tag", "started", "isbn", "pages", "openlibrary", "notes", "review"]
 DATE_FIELDS = {"finished", "started"}
 
 
@@ -46,14 +46,15 @@ def get_field(book: ET.Element, field: str) -> str:
 
 
 def fetch_book_data(title: str, author: str) -> dict[str, str]:
-    """Look up ISBN and page count via Open Library Search API."""
+    """Look up ISBN, page count, and Open Library link via Search API."""
+    from difflib import SequenceMatcher
     from urllib.request import urlopen
     from urllib.parse import urlencode
     import json as _json
 
     params = urlencode({
         "title": title, "author": author,
-        "fields": "isbn,number_of_pages_median", "limit": "1",
+        "fields": "title,key,isbn,number_of_pages_median", "limit": "5",
     })
     url = f"https://openlibrary.org/search.json?{params}"
     try:
@@ -64,7 +65,11 @@ def fetch_book_data(title: str, author: str) -> dict[str, str]:
     docs = data.get("docs", [])
     if not docs:
         return {}
-    doc = docs[0]
+    # Pick the doc whose title best matches the searched title
+    title_lower = title.lower()
+    doc = max(docs, key=lambda d: SequenceMatcher(
+        None, title_lower, d.get("title", "").lower()
+    ).ratio())
     result = {}
     # ISBN: prefer ISBN-13
     isbns = doc.get("isbn", [])
@@ -78,6 +83,10 @@ def fetch_book_data(title: str, author: str) -> dict[str, str]:
     pages = doc.get("number_of_pages_median")
     if pages:
         result["pages"] = str(pages)
+    # Open Library link
+    key = doc.get("key")
+    if key:
+        result["openlibrary"] = f"https://openlibrary.org{key}"
     return result
 
 
@@ -376,6 +385,11 @@ class ISBNField(Horizontal):
         if "pages" in data:
             try:
                 form.query_one("#input_pages", Input).value = data["pages"]
+            except Exception:
+                pass
+        if "openlibrary" in data:
+            try:
+                form.query_one("#input_openlibrary", Input).value = data["openlibrary"]
             except Exception:
                 pass
         parts = []
