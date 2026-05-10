@@ -1,6 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <books>
   <book>
+    <author>Robert Jackall</author>
+    <title>Moral Mazes</title>
+    <finished>2026.05.10</finished>
+  </book>
+  <book>
     <author>Aaron Dembski-Bowden</author>
     <title>Betrayer (Horus Heresy 24)</title>
     <tag>Fiction</tag>

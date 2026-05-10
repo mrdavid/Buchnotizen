@@ -367,12 +367,15 @@ class BookForm(Vertical):
     DEFAULT_CSS = """
     BookForm {
         padding: 1 2;
+        height: auto;
     }
     BookForm Label {
+        height: auto;
         margin-top: 1;
         color: $text-muted;
     }
     BookForm Input {
+        height: auto;
         margin-bottom: 0;
     }
     """
@@ -461,6 +464,9 @@ class EditBookScreen(Screen):
         background: $accent;
         color: $text;
     }
+    EditBookScreen ScrollableContainer {
+        height: 1fr;
+    }
     #button-row {
         height: 3;
         align: center middle;
@@ -536,6 +542,9 @@ class NewBookScreen(Screen):
         padding: 1;
         background: $success;
         color: $text;
+    }
+    NewBookScreen ScrollableContainer {
+        height: 1fr;
     }
     #button-row {
         height: 3;

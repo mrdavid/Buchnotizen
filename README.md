@@ -3,14 +3,17 @@
 I started this log on October 30th, 2012. I list all books I read.  
 
 ### Statistics
-Total number of books read: 125  
-Books per month: 0.77 (2012/9 to 2026/3)
+Total number of books read: 126  
+Books per month: 0.76 (2012/9 to 2026/5)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 ![Days between books (distribution)](book_gaps.png)
 
 ### List of books
+*Moral Mazes*, Robert Jackall  
+Finished: 2026.05.10
+
 *[Betrayer (Horus Heresy 24)](https://openlibrary.org/works/OL21062766W)*, Aaron Dembski-Bowden  
 Finished: 2026.03.02
 
@@ -299,7 +302,7 @@ Finished: 2014.03.21
 *[The (mis)behaviour of markets](https://openlibrary.org/works/OL1808383W)*, Benoit Mandelbrot  
 Finished: 2014.02.24
 
-*Fabian - Die Geschichte eines Moralisten*, Erich K&auml;stner  
+*[Fabian - Die Geschichte eines Moralisten](https://openlibrary.org/works/OL11541077W/)*, Erich K&auml;stner  
 Finished: 2014.01.17
 
 *[The Mathematician's Mind](https://openlibrary.org/works/OL1209467W)*, Jacques Hadamard  
