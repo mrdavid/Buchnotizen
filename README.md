@@ -11,7 +11,7 @@ Books per month: 0.76 (2012/9 to 2026/5)
 ![Days between books (distribution)](book_gaps.png)
 
 ### List of books
-*Moral Mazes*, Robert Jackall  
+*[Moral Mazes](https://openlibrary.org/works/OL2651494W)*, Robert Jackall  
 Finished: 2026.05.10
 
 *[Betrayer (Horus Heresy 24)](https://openlibrary.org/works/OL21062766W)*, Aaron Dembski-Bowden  
