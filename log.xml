@@ -1,6 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <books>
   <book>
+    <author>Chen Jiatong</author>
+    <title>Der Ruf des Mondsteins</title>
+    <finished>2026.05.30</finished>
+    <isbn>9783743208063</isbn>
+    <openlibrary>https://openlibrary.org/works/OL34946272W</openlibrary>
+  </book>
+  <book>
     <author>Robert Jackall</author>
     <title>Moral Mazes</title>
     <finished>2026.05.10</finished>

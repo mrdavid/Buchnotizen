@@ -3,14 +3,17 @@
 I started this log on October 30th, 2012. I list all books I read.  
 
 ### Statistics
-Total number of books read: 126  
-Books per month: 0.76 (2012/9 to 2026/5)
+Total number of books read: 127  
+Books per month: 0.77 (2012/9 to 2026/5)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 ![Days between books (distribution)](book_gaps.png)
 
 ### List of books
+*[Der Ruf des Mondsteins](https://openlibrary.org/works/OL34946272W)*, Chen Jiatong  
+Finished: 2026.05.30
+
 *[Moral Mazes](https://openlibrary.org/works/OL2651494W)*, Robert Jackall  
 Finished: 2026.05.10
 
