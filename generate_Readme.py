@@ -5,12 +5,14 @@ import matplotlib.pyplot as plt
 
 from matplotlib import rcParams
 rcParams.update({'figure.autolayout': True})
-#%matplotlib inline
 
 
 # ----------------------------------------------------
 # Output Readme.md markdown file that list out my books_list
 # ----------------------------------------------------
+
+LOG_START_YEAR = 2012
+LOG_START_MONTH = 10
 
 now = datetime.datetime.now()
 
@@ -18,7 +20,8 @@ now = datetime.datetime.now()
 e = xml.etree.ElementTree.parse('log.xml').getroot()
 books = e.findall('book')
 total_books = len(books)
-books_per_month = (total_books/( (now.year - 2013.0)*12.0 + 4.0 + now.month ))
+months_elapsed = (now.year - LOG_START_YEAR) * 12 + (now.month - LOG_START_MONTH) + 1
+books_per_month = total_books / months_elapsed
 
 
 def generate_readme(books, total_books, books_per_month, now):
@@ -29,7 +32,7 @@ def generate_readme(books, total_books, books_per_month, now):
     lines.append("")
     lines.append("### Statistics")
     lines.append("Total number of books read: " + str(total_books) + "  ")
-    lines.append("Books per month: " + str(round(books_per_month,2)) + " (2012/9 to "+str(now.year)+"/"+str(now.month)+")")
+    lines.append(f"Books per month: {round(books_per_month, 2)} ({LOG_START_YEAR}/{LOG_START_MONTH} to {now.year}/{now.month})")
     lines.append("")
     lines.append("![Books recorded by year](book_recorded.png)")
     lines.append("![Books read per month](book_read.png)")
@@ -43,8 +46,7 @@ def generate_readme(books, total_books, books_per_month, now):
         if ol is not None and ol.text:
             title_text = f"[{title_text}]({ol.text})"
         lines.append(f"*{title_text}*, {atype.find('author').text}  ")
-        if atype.find('title') is not None:
-            lines.append("Finished: " + atype.find('finished').text)
+        lines.append("Finished: " + atype.find('finished').text)
         lines.append("")
 
     return "\n".join(lines) + "\n"
@@ -66,9 +68,7 @@ df.date_read = pd.to_datetime(df.date_read, format="%Y.%m.%d")
 df.index = df.date_read
 # summarize by year
 df2 = df.groupby(pd.Grouper(freq='YE')).count()['title']
-
-df2.year = pd.Series(df2.index).apply(lambda x: x.year)
-df2.index = df2.year
+df2.index = df2.index.year
 
 # plot total books recorded each year
 # Note: 2012 doesn't have data for the whole year, so it's books recorded, not book read
@@ -104,7 +104,6 @@ fig.get_figure().savefig('book_read.png')
 dates_sorted = df['date_read'].sort_values()
 gaps = dates_sorted.diff().dropna().dt.days
 
-plt.figure(figsize=(780/my_dpi, 360/my_dpi), dpi=my_dpi)
 fig, ax = plt.subplots(figsize=(780/my_dpi, 360/my_dpi), dpi=my_dpi)
 ax.hist(gaps, bins=30, weights=[100.0 / len(gaps)] * len(gaps), edgecolor='white', linewidth=0.5)
 ax.set_xlabel('Days between finishing books')

@@ -331,7 +331,6 @@ class ISBNField(Horizontal):
         self.run_worker(self._fetch(form, title, author), exclusive=True)
 
     async def _fetch(self, form: "BookForm", title: str, author: str) -> None:
-        import asyncio
         loop = asyncio.get_event_loop()
         data = await loop.run_in_executor(None, fetch_book_data, title, author)
         if not data:
@@ -340,15 +339,9 @@ class ISBNField(Horizontal):
         if "isbn" in data:
             self.query_one(f"#{self._input_id}", Input).value = data["isbn"]
         if "pages" in data:
-            try:
-                form.query_one("#input_pages", Input).value = data["pages"]
-            except Exception:
-                pass
+            form.query_one("#input_pages", Input).value = data["pages"]
         if "openlibrary" in data:
-            try:
-                form.query_one("#input_openlibrary", Input).value = data["openlibrary"]
-            except Exception:
-                pass
+            form.query_one("#input_openlibrary", Input).value = data["openlibrary"]
         parts = []
         if "isbn" in data:
             parts.append(f"ISBN: {data['isbn']}")
