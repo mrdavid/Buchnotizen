@@ -1,6 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <books>
   <book>
+    <author>Chris Arnade</author>
+    <title>Dignity</title>
+    <finished>2026.07.19</finished>
+    <started>2026.07.01</started>
+    <isbn>978-0525534730</isbn>
+  </book>
+  <book>
     <author>Chen Jiatong</author>
     <title>Der Ruf des Mondsteins</title>
     <finished>2026.05.30</finished>

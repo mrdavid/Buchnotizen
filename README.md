@@ -3,14 +3,17 @@
 I started this log on October 30th, 2012. I list all books I read.  
 
 ### Statistics
-Total number of books read: 127  
-Books per month: 0.77 (2012/10 to 2026/5)
+Total number of books read: 128  
+Books per month: 0.77 (2012/10 to 2026/7)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 ![Days between books (distribution)](book_gaps.png)
 
 ### List of books
+*Dignity*, Chris Arnade  
+Finished: 2026.07.19
+
 *[Der Ruf des Mondsteins](https://openlibrary.org/works/OL34946272W)*, Chen Jiatong  
 Finished: 2026.05.30
 
