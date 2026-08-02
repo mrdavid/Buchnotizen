@@ -4,7 +4,7 @@ I started this log on October 30th, 2012. I list all books I read.
 
 ### Statistics
 Total number of books read: 128  
-Books per month: 0.77 (2012/10 to 2026/7)
+Books per month: 0.77 (2012/10 to 2026/8)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
@@ -206,7 +206,7 @@ Finished: 2017.06.11
 *[The Management Myth](https://openlibrary.org/works/OL3295236W)*, Matthew Stewart  
 Finished: 2017.05.24
 
-*Astrophysics: A Very Short Introduction*, James Binney  
+*[Astrophysics: A Very Short Introduction](https://openlibrary.org/works/OL45732951W)*, James Binney  
 Finished: 2017.03.28
 
 *[How Google works](https://openlibrary.org/works/OL17276241W)*, Eric Schmidt, Jonathan Rosenberg  
