@@ -1,6 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <books>
   <book>
+    <author>Robert Sutton</author>
+    <title>The no asshole rule</title>
+    <finished>2026.10.05</finished>
+    <isbn>9781847440006</isbn>
+    <pages>210</pages>
+    <openlibrary>https://openlibrary.org/works/OL8135253W</openlibrary>
+    <notes>Could have been a blog post</notes>
+  </book>
+  <book>
     <author>Chris Arnade</author>
     <title>Dignity</title>
     <finished>2026.07.19</finished>
