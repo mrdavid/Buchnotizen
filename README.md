@@ -3,14 +3,17 @@
 I started this log on October 30th, 2012. I list all books I read.  
 
 ### Statistics
-Total number of books read: 129  
-Books per month: 0.76 (2012/10 to 2026/10)
+Total number of books read: 130  
+Books per month: 0.77 (2012/10 to 2026/10)
 
 ![Books recorded by year](book_recorded.png)
 ![Books read per month](book_read.png)
 ![Days between books (distribution)](book_gaps.png)
 
 ### List of books
+*[Excession](https://openlibrary.org/works/OL8368435W)*, Iain M. Banks  
+Finished: 2026.10.11
+
 *[The no asshole rule](https://openlibrary.org/works/OL8135253W)*, Robert Sutton  
 Finished: 2026.10.05
 

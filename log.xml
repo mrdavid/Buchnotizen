@@ -1,6 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <books>
   <book>
+    <author>Iain M. Banks</author>
+    <title>Excession</title>
+    <finished>2026.10.11</finished>
+    <isbn>9781857234169</isbn>
+    <pages>460</pages>
+    <openlibrary>https://openlibrary.org/works/OL8368435W</openlibrary>
+  </book>
+  <book>
     <author>Robert Sutton</author>
     <title>The no asshole rule</title>
     <finished>2026.10.05</finished>
